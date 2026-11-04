@@ -2,19 +2,16 @@
 
 ## How to run
 
-**Locally**
+### Google Colab
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-jupyter notebook notebook.ipynb
-```
+1. Open notebook.ipynb in Google Colab (File -> Upload notebook).
+2. Open the Files panel on the left (folder icon) and upload the three data files from the data folder: llmcheck_benchmarks.csv, chips.csv and quant_bits.csv. Colab cannot read them from this repository by itself, so they must be uploaded by hand.
+3. In the Setup cell, change the data path to the folder where you uploaded the files. If you uploaded them straight into the Files panel (not into a folder), use:
 
-Then run all cells.
+   ```python
+   DATA_DIR = "/content/"
+   ```
 
-**Google Colab**
+   If you created a folder named data and uploaded the files into it, keep `DATA_DIR = "data/"`.
 
-Upload `notebook.ipynb`, create a `data` folder and upload the three files from `data/` into it (`llmcheck_benchmarks.csv`, `chips.csv`, `quant_bits.csv`), then run all cells.
-
-The full run takes a few minutes. Tested with Python 3.13.
+4. Run all cells (Runtime -> Run all).

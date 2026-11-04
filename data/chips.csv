@@ -1,0 +1,22 @@
+chip,generation,tier,gpu_cores,bandwidth_gbs,binned_gpu_cores,binned_bandwidth_gbs,real_apple,note
+M1,1,base,8,68,7,68,yes,
+M1 Pro,1,pro,16,200,14,200,yes,
+M1 Max,1,max,32,400,24,400,yes,
+M1 Ultra,1,ultra,64,800,48,800,yes,
+M2,2,base,10,100,8,100,yes,
+M2 Pro,2,pro,19,200,16,200,yes,
+M2 Max,2,max,38,400,30,400,yes,
+M2 Ultra,2,ultra,76,800,60,800,yes,
+M3,3,base,10,100,8,100,yes,
+M3 Pro,3,pro,18,150,14,150,yes,
+M3 Max,3,max,40,400,30,300,yes,
+M3 Ultra,3,ultra,80,819,60,819,yes,
+M4,4,base,10,120,8,120,yes,
+M4 Pro,4,pro,20,273,16,273,yes,
+M4 Max,4,max,40,546,32,410,yes,
+M4 Ultra,4,ultra,,,,,no,Apple never shipped an M4 Ultra (Mac Studio 2025 used M3 Ultra)
+M5,5,base,10,153,,,yes,
+M5 Pro,5,pro,20,307,,,yes,bandwidth from llmcheck macs.json
+M5 Max,5,max,40,614,32,460,yes,bandwidth from llmcheck macs.json
+M5 Ultra,5,ultra,80,1228,,,yes,80-core GPU per Tom's Hardware / NetworkChuck notes in llmcheck; bandwidth from macs.json
+M6,6,base,,170,,153,yes,macs.json lists 153 and 170 GB/s configs

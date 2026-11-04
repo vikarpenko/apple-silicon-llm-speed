@@ -1,0 +1,481 @@
+model,params,quant,chip,ram,engine,tps,ttft,date,provenance,source,context,note
+Phi-4 Mini,3.8B,Q4_K_M,M5 Max,64,Ollama,168,,2026-03,estimated,,,
+Phi-4 Mini,3.8B,Q4_K_M,M4 Pro,24,Ollama,86,,2026-03,estimated,,,
+Phi-4 Mini,3.8B,Q4_K_M,M3,16,MLX,34,,2026-02,estimated,,,
+Phi-4 Mini,3.8B,Q4_K_M,M2,8,Ollama,34,,2026-01,estimated,,,
+Phi-4 Mini,3.8B,Q4_K_M,M1,16,Ollama,24,,2025-12,estimated,,,
+Qwen 3.5 4B,4B,Q4_K_M,M5 Max,64,MLX,161,,2026-03,estimated,,,
+Qwen 3.5 4B,4B,Q4_K_M,M4,16,Ollama,39,,2026-02,estimated,,,
+Qwen 3 4B,4B,Q4_K_M,M2,8,Ollama,33,,2026-01,estimated,,,
+Qwen 3 4B,4B,Q4_K_M,M4 Pro,24,MLX,82,,2026-02,estimated,,,
+Gemma 4 E2B,2.3B,Q4_K_M,M5 Max,128,MLX,261,,2026-04,estimated,,,
+Gemma 4 E2B,2.3B,Q4_K_M,M4 Pro,24,Ollama,147,,2026-04,estimated,,,
+Gemma 4 E2B,2.3B,Q4_K_M,M3,16,Ollama,62,,2026-04,estimated,,,
+Gemma 4 E2B,2.3B,Q4_K_M,M1,8,Ollama,44,,2026-04,estimated,,,
+Gemma 4 E4B,4B,Q4_K_M,M5 Max,128,MLX,161,,2026-04,estimated,,,
+Gemma 4 E4B,4B,Q4_K_M,M5 Pro,24,Ollama,91,,2026-04,estimated,,,
+Gemma 4 E4B,4B,Q4_K_M,M4 Pro,24,MLX,62,,2026-04,estimated,,,
+Gemma 4 E4B,4B,Q4_K_M,M3,16,Ollama,33,,2026-04,estimated,,,
+Gemma 4 E4B,4B,Q4_K_M,M1,8,Ollama,23,,2026-04,estimated,,,
+Gemma 4 26B-A4B,26B,Q4_K_M,M5 Pro,24,Ollama,78,,2026-04,estimated,,,
+Gemma 4 26B-A4B,26B,Q4_K_M,M4 Max,48,MLX,101,,2026-04,estimated,,,
+Gemma 4 26B-A4B,26B,Q4_K_M,M4 Pro,24,Ollama,72,,2026-04,estimated,,,
+Gemma 4 31B,31B,Q4_K_M,M5 Max,128,MLX,26,,2026-04,estimated,,,
+Gemma 4 31B,31B,Q4_K_M,M4 Max,48,MLX,23,,2026-04,estimated,,,
+Gemma 4 31B,31B,Q4_K_M,M4 Pro,24,Ollama,12,,2026-04,estimated,,,
+Gemma 3 4B,4B,Q4_K_M,M5 Max,64,Ollama,161,,2026-03,estimated,,,
+Gemma 3 4B,4B,Q4_K_M,M1,8,Ollama,23,,2025-12,estimated,,,
+Gemma 3 4B,4B,Q4_K_M,M3 Pro,18,MLX,48,,2026-01,estimated,,,
+Qwen 3.5 9B,9B,Q4_K_M,M5 Max,64,Ollama,82,,2026-03,estimated,,,
+Qwen 3.5 9B,9B,Q4_K_M,M4,16,LM Studio,18,,2026-02,estimated,,,
+Qwen 3.5 9B,9B,Q4_K_M,M3,16,Ollama,15,,2026-01,estimated,,,
+Qwen 3.5 9B,9B,Q4_K_M,M1,16,Ollama,10,,2025-12,estimated,,,
+Qwen 3 8B,8B,Q4_K_M,M5 Max,128,Ollama,91,,2026-03,estimated,,,
+Qwen 3 8B,8B,Q8_0,M4 Pro,24,MLX,24,,2026-02,estimated,,,
+Qwen 3 8B,8B,Q4_K_M,M2,16,Ollama,17,,2026-01,estimated,,,
+DeepSeek R1 8B,8B,Q4_K_M,M5 Max,64,Ollama,91,,2026-03,estimated,,,
+DeepSeek R1 8B,8B,Q4_K_M,M4,16,MLX,20,,2026-02,estimated,,,
+DeepSeek R1 8B,8B,Q4_K_M,M2,16,Ollama,17,,2026-01,estimated,,,
+DeepSeek R1 8B,8B,Q4_K_M,M1,16,Ollama,11,,2025-11,estimated,,,
+Mistral 7B,7B,Q4_K_M,M5 Max,64,Ollama,102,,2026-03,estimated,,,
+Mistral 7B,7B,Q4_K_M,M4 Pro,24,MLX,50,,2026-02,estimated,,,
+Mistral 7B,7B,Q4_K_M,M3,16,Ollama,19,,2026-01,estimated,,,
+Mistral 7B,7B,Q4_K_M,M1,16,Ollama,13,,2025-12,estimated,,,
+Llama 3.1 8B,8B,Q4_K_M,M5 Max,128,MLX,91,,2026-03,estimated,,,
+Llama 3.1 8B,8B,Q4_K_M,M4,16,Ollama,20,,2026-02,estimated,,,
+Llama 3.1 8B,8B,Q4_K_M,M3 Pro,18,Ollama,25,,2026-01,estimated,,,
+Llama 3.1 8B,8B,Q4_K_M,M1,16,Ollama,11,,2025-12,estimated,,,
+Ministral 8B,8B,Q4_K_M,M5 Max,64,Ollama,91,,2026-03,estimated,,,
+Ministral 8B,8B,Q4_K_M,M3,16,LM Studio,17,,2026-01,estimated,,,
+Gemma 3 12B,12B,Q4_K_M,M5 Max,64,Ollama,64,,2026-03,estimated,,,
+Gemma 3 12B,12B,Q4_K_M,M4 Pro,24,MLX,30,,2026-02,estimated,,,
+Gemma 3 12B,12B,Q4_K_M,M3,16,Ollama,11,,2026-01,estimated,,,
+Gemma 3 12B,12B,Q4_K_M,M2,16,Ollama,11,,2025-12,estimated,,,
+Qwen 3 14B,14B,Q4_K_M,M5 Max,64,Ollama,55,,2026-03,estimated,,,
+Qwen 3 14B,14B,Q4_K_M,M4 Pro,24,LM Studio,26,,2026-02,estimated,,,
+Qwen 3 14B,14B,Q4_K_M,M3,16,Ollama,10,,2026-01,estimated,,,
+Phi-4 14B,14B,Q4_K_M,M5 Max,64,MLX,55,,2026-03,estimated,,,
+Phi-4 14B,14B,Q4_K_M,M4,16,Ollama,12,,2026-02,estimated,,,
+Phi-4 14B,14B,Q4_K_M,M2,16,MLX,10,,2026-01,estimated,,,
+Ministral 3 14B,14B,Q4_K_M,M5 Max,64,Ollama,55,,2026-03,estimated,,,
+Ministral 3 14B,14B,Q4_K_M,M4 Pro,24,Ollama,26,,2026-02,estimated,,,
+Gemma 3 27B,27B,Q4_K_M,M5 Max,64,Ollama,30,,2026-03,estimated,,,
+Gemma 3 27B,27B,Q4_K_M,M4 Pro,24,LM Studio,14,,2026-02,estimated,,,
+Gemma 3 27B,27B,Q4_K_M,M4 Max,48,MLX,27,,2026-02,estimated,,,
+Qwen 3 30B-A3B,30B,Q4_K_M,M5 Max,64,Ollama,96,,2026-03,estimated,,,
+Qwen 3 30B-A3B,30B,Q4_K_M,M4 Pro,24,MLX,58,,2026-02,estimated,,,
+Qwen 3 30B-A3B,30B,Q4_K_M,M3 Max,64,Ollama,75,,2026-01,estimated,,,
+Qwen 3.5 35B-A3B,35B,Q4_K_M,M5 Max,64,MLX,136,,2026-03,estimated,,,
+Qwen 3.5 35B-A3B,35B,Q4_K_M,M4 Max,48,Ollama,130,,2026-02,estimated,,,
+Qwen 3 32B,32B,Q4_K_M,M5 Max,128,Ollama,25,,2026-03,estimated,,,
+Qwen 3 32B,32B,Q4_K_M,M4 Max,64,MLX,23,,2026-02,estimated,,,
+Qwen 3 32B,32B,Q4_K_M,M4 Pro,32,Ollama,12,,2026-01,estimated,,,
+DeepSeek R1 32B,32B,Q4_K_M,M5 Max,64,Ollama,25,,2026-03,estimated,,,
+DeepSeek R1 32B,32B,Q4_K_M,M4 Max,48,LM Studio,23,,2026-01,estimated,,,
+DeepSeek R1 32B,32B,Q4_K_M,M3 Max,64,Ollama,17,,2025-12,estimated,,,
+DeepSeek R1 70B,70B,Q4_K_M,M5 Max,128,Ollama,12,,2026-03,estimated,,,
+Qwen 2.5 72B,72B,Q4_K_M,M5 Max,128,Ollama,12,,2026-03,estimated,,,
+GPT-oss 120B,117B-A5.1B,MXFP4,M5 Max,128,Ollama,76,,2026-03,estimated,,,
+Llama 4 Scout,109B,Q4_K_M,M5 Max,128,MLX,19,,2026-03,estimated,,,
+Mistral 7B,7B,Q8_0,M5 Max,64,MLX,59,,2026-03,estimated,,,
+Mistral 7B,7B,Q8_0,M4 Pro,24,Ollama,28,,2026-02,estimated,,,
+Qwen 3.5 9B,9B,Q8_0,M5 Max,128,MLX,47,,2026-03,estimated,,,
+Llama 3.1 8B,8B,Q8_0,M5 Max,64,Ollama,52,,2026-03,estimated,,,
+Qwen 3 14B,14B,Q8_0,M5 Max,128,MLX,31,,2026-03,estimated,,,
+Phi-4 Mini,3.8B,Q8_0,M5 Max,64,MLX,102,,2026-03,estimated,,,
+Phi-4 Mini,3.8B,Q4_K_M,M4 Max,48,MLX,153,,2026-02,estimated,,,
+Gemma 3 4B,4B,Q8_0,M4 Pro,24,MLX,47,,2026-02,estimated,,,
+Qwen 3.5 35B-A3B,35B,Q4_K_M,M3 Max,64,Ollama,115,,2026-01,estimated,,,
+DeepSeek R1 8B,8B,Q8_0,M5 Max,64,MLX,52,,2026-03,estimated,,,
+Qwen 3 8B,8B,Q4_K_M,M4 Pro,24,Ollama,44,,2026-02,estimated,,,
+Qwen 3 8B,8B,Q4_K_M,M1,16,Ollama,11,,2025-12,estimated,,,
+Ministral 8B,8B,Q4_K_M,M4,16,MLX,20,,2026-02,estimated,,,
+Ministral 3 14B,14B,Q4_K_M,M3,16,LM Studio,10,,2026-01,estimated,,,
+Gemma 3 27B,27B,Q4_K_M,M3 Max,64,MLX,20,,2026-01,estimated,,,
+Llama 3.1 8B,8B,Q4_K_M,M2,8,Ollama,17,,2025-12,estimated,,,
+Qwen 3.5 9B,9B,Q4_K_M,M4 Pro,24,MLX,39,,2026-03,estimated,,,
+Qwen 3 4B,4B,Q4_K_M,M5 Max,64,Ollama,161,,2026-03,estimated,,,
+Qwen 3.6-35B-A3B,35B,Q4_K_M,M4 Max,48,MLX,105,,2026-04,estimated,,,
+Qwen 3.6-35B-A3B,35B,Q4_K_M,M4 Pro,24,Ollama,74,,2026-04,estimated,,,
+Mistral Small 4,119B,Q4_K_M,M5 Max,128,MLX,46,,2026-04,estimated,,,
+Qwen3-235B-A22B,235B,Q4_K_M,M5 Max,128,MLX,15,,2026-04,estimated,,,
+Nemotron-Cascade 2,30B,Q4_K_M,M5 Max,64,Ollama,117,,2026-04,estimated,,,
+Nemotron-Cascade 2,30B,Q4_K_M,M4 Max,48,MLX,111,,2026-04,estimated,,,
+Nemotron-Cascade 2,30B,Q4_K_M,M4 Pro,24,Ollama,77,,2026-04,estimated,,,
+Mistral Small 3.2 24B,24B,Q4_K_M,M5 Max,128,MLX,33,,2026-05,estimated,,,
+Mistral Small 3.2 24B,24B,Q4_K_M,M4 Max,48,MLX,30,,2026-05,estimated,,,
+Mistral Small 3.2 24B,24B,Q4_K_M,M4 Pro,32,Ollama,15,,2026-05,estimated,,,
+Hermes 4 70B,70B,Q4_K_M,M5 Max,128,MLX,12,,2026-05,estimated,,,
+Hermes 4 70B,70B,Q4_K_M,M4 Max,128,MLX,11,,2026-05,estimated,,,
+SmolLM3 3B,3B,Q4_K_M,M5 Max,64,MLX,199,,2026-05,estimated,,,
+SmolLM3 3B,3B,Q4_K_M,M4 Pro,24,Ollama,106,,2026-05,estimated,,,
+SmolLM3 3B,3B,Q4_K_M,M3,16,Ollama,43,,2026-05,estimated,,,
+SmolLM3 3B,3B,Q4_K_M,M2,8,Ollama,43,,2026-05,estimated,,,
+SmolLM3 3B,3B,Q4_K_M,M1,8,Ollama,30,,2026-05,estimated,,,
+Devstral Small 24B,24B,Q4_K_M,M5 Max,128,MLX,33,,2026-05,estimated,,,
+Devstral Small 24B,24B,Q4_K_M,M4 Max,48,MLX,30,,2026-05,estimated,,,
+Devstral Small 24B,24B,Q4_K_M,M4 Pro,32,Ollama,15,,2026-05,estimated,,,
+GLM-4.5-Air,106B,Q4_K_M,M5 Max,128,MLX,27,,2026-07,estimated,,,
+GLM-4.5-Air,106B,Q4_K_M,M4 Max,128,MLX,24,,2026-07,estimated,,,
+DeepSeek V4 Flash,284B-A13B,Q2_K,M5 Max,128,MLX,39,0.4,2026-08,community,https://modelfit.io/blog/deepseek-v4-flash-0731-128gb-macbook/,,
+DeepSeek V4 Flash,284B-A13B,Q2_K,M3 Max,128,MLX,27,0.6,2026-08,community,https://modelfit.io/blog/deepseek-v4-flash-0731-128gb-macbook/,,
+GLM 5.2,753B-A40B,IQ1_S,M3 Ultra,256,LM Studio,22,1.5,2026-07,community,https://codersera.com/blog/how-to-run-glm-5-2-locally-2026/,,
+GLM 5.2,753B-A40B,Q4_K_M,M3 Ultra,512,MLX,15,2.0,2026-07,community,https://kingy.ai/blog/glm-5-2-256gb-mac-studio-local/,,
+Muse Glimmer 30B,30B,Q4_K_M,M4 Pro,24,LM Studio,10,0.8,2026-08,community,https://kingy.ai/blog/muse-glimmer-private-offline-ai-agent/,,
+Muse Glimmer 30B,30B,Q4_K_M,M5 Max,64,MLX,27,0.4,2026-08,sourced,https://huggingface.co/blog/muse-glimmer,,
+Muse Glimmer 30B,30B,Q4_K_M,M4 Max,48,MLX,24,0.5,2026-08,sourced,https://huggingface.co/blog/muse-glimmer,,
+LFM2.5-2.6B,2.6B,Q4_K_M,M5 Max,64,MLX,220,0.1,2026-08,sourced,https://www.liquid.ai/blog/lfm2-5-2-6b,,
+Maple Preview 20B-A1B,20B-A1B,Ternary,M5 Pro,48,MLX,387,,2026-09-17,sourced,https://github.com/deepgrove-ai/mlx-lm-deepgrove,"512-token prompt, 256 generated","DeepGrove's mlx-lm fork (mlx-lm-deepgrove) README: 20-core GPU, 48 GB, macOS 26.4, MLX 0.32.0, battery power; exact output head, temperature 1.0, top-p 0.95, median of 6 runs. Its approximate --flash-head mode (477) is a different workload and is not entered. The fork is DeepGrove's only published MLX route."
+Maple Preview 20B-A1B,20B-A1B,Ternary,M4,16,MLX,169,,2026-08,sourced,https://github.com/deepgrove-ai/mlx-lm-deepgrove,,"DeepGrove's mlx-lm fork (mlx-lm-deepgrove) README, exact output head; its approximate --flash-head mode reaches 218, the figure behind the model card's '200+ tokens/sec on a Mac mini M4'. The README says the M4 figures come from an earlier version of the fork and does not state the M4 run's prompt length."
+Qwen 3.6-27B,27B,Q4_K_M,M5 Max,64,MLX,30,,2026-08,estimated,,,
+Qwen 3.6-27B,27B,Q4_K_M,M4 Max,64,MLX,27,,2026-08,estimated,,,
+Qwen 3.6-27B,27B,Q4_K_M,M3 Max,64,Ollama,20,,2026-08,estimated,,,
+Qwen 3.6-27B,27B,Q4_K_M,M5 Pro,24,MLX,15,,2026-08,estimated,,,
+Qwen 3.6-27B,27B,Q4_K_M,M4 Pro,24,Ollama,14,,2026-08,estimated,,,
+KAT-Coder-V2.5,35B-A3B,Q4_K_M,M4 Max,48,MLX,80,,2026-08,estimated,,,
+KAT-Coder-V2.5,35B-A3B,Q4_K_M,M4 Pro,24,Ollama,66,,2026-08,estimated,,,
+Nemotron 3.5 Lightning,30B-A3B,Q4_K_M,M4 Max,48,MLX,117,,2026-08,estimated,,,
+Nemotron 3.5 Lightning,30B-A3B,Q4_K_M,M4 Pro,24,Ollama,67,,2026-08,estimated,,,
+Laguna S 2.1,118B-A8B,Q4_K_M,M5 Max,128,MLX,38,,2026-08,estimated,,,
+Laguna S 2.1,118B-A8B,Q4_K_M,M4 Max,128,MLX,35,,2026-08,estimated,,,
+Laguna XS 2.1,33B-A3B,Q4_K_M,M5 Max,64,MLX,117,,2026-08,estimated,,,
+Laguna XS 2.1,33B-A3B,Q4_K_M,M4 Pro,24,Ollama,77,,2026-08,estimated,,,
+Inkling-Small,276B-A12B,Q2_K,M5 Max,128,MLX,42,,2026-08,estimated,,,
+Nanbeige4.2-3B,3B,Q4_K_M,M5 Max,64,MLX,199,,2026-08,estimated,,,
+Nanbeige4.2-3B,3B,Q4_K_M,M4,16,Ollama,51,,2026-08,estimated,,,
+Nanbeige4.2-3B,3B,Q4_K_M,M2,8,Ollama,43,,2026-08,estimated,,,
+Apertus 1.5 8B,8B,Q4_K_M,M5 Max,64,MLX,91,,2026-08,estimated,,,
+Apertus 1.5 8B,8B,Q4_K_M,M4,16,Ollama,20,,2026-08,estimated,,,
+Apertus 1.5 70B,70B,Q4_K_M,M5 Max,128,MLX,12,,2026-08,estimated,,,
+GLM-4.7-Flash,31B,Q4_K_M,M5 Max,64,MLX,26,,2026-08,estimated,,,
+GLM-4.7-Flash,31B,Q4_K_M,M4 Max,48,MLX,23,,2026-08,estimated,,,
+GLM-4.7-Flash,31B,Q4_K_M,M4 Pro,24,Ollama,12,,2026-08,estimated,,,
+Llama 3.3 70B,70B,Q4_K_M,M1 Ultra,128,Ollama,15,,2026-08,estimated,,,
+DeepSeek R1 70B,70B,Q4_K_M,M1 Ultra,128,Ollama,15,,2026-08,estimated,,,
+Qwen 3.6-35B-A3B,35B-A3B,Q4_K_M,M1 Ultra,64,MLX,105,,2026-08,estimated,,,
+Qwen 3.6-27B,27B,Q4_K_M,M1 Ultra,64,MLX,38,,2026-08,estimated,,,
+Gemma 4 26B-A4B,26B-A4B,Q4_K_M,M1 Ultra,64,Ollama,120,,2026-08,estimated,,,
+GPT-oss 120B,117B-A5.1B,MXFP4,M1 Ultra,128,Ollama,93,,2026-08,estimated,,,
+Llama 3.3 70B,70B,Q4_K_M,M2 Max,96,Ollama,8,,2026-08,estimated,,,
+Qwen 3.6-35B-A3B,35B-A3B,Q4_K_M,M2 Max,64,MLX,92,,2026-08,estimated,,,
+Qwen 3.6-27B,27B,Q4_K_M,M2 Max,32,MLX,20,,2026-08,estimated,,,
+Gemma 3 27B,27B,Q4_K_M,M2 Max,32,Ollama,20,,2026-08,estimated,,,
+Llama 3.1 8B,8B,Q4_K_M,M2 Max,32,Ollama,62,,2026-08,estimated,,,
+Mistral Small 3.2 24B,24B,Q4_K_M,M2 Max,32,Ollama,22,,2026-08,estimated,,,
+Llama 3.3 70B,70B,Q4_K_M,M3 Ultra,256,Ollama,16,,2026-08,estimated,,,
+DeepSeek V4 Flash,284B-A13B,Q4_K_M,M3 Ultra,256,MLX,32,,2026-08,estimated,,,
+Inkling-Small,276B-A12B,Q4_K_M,M3 Ultra,512,MLX,35,,2026-08,estimated,,,
+Qwen3-235B-A22B,235B-A22B,Q4_K_M,M3 Ultra,256,MLX,20,,2026-08,estimated,,,
+Hunyuan Hy3,295B-A21B,Q4_K_M,M3 Ultra,256,LM Studio,21,,2026-08,estimated,,,
+Qwen3-Coder-Next,80B-A3B,Q4_K_M,M5 Max,64,MLX,84,,2026-08,estimated,,,
+Qwen3-Coder-Next,80B-A3B,Q4_K_M,M4 Max,64,MLX,77,,2026-08,estimated,,,
+Qwen 3.6-27B,27B,Q4_K_M,M6,24,MLX,9,,2026-08,estimated,,,
+KAT-Coder-V2.5,35B,Q4_K_M,M6,24,MLX,47,,2026-08,estimated,,,
+DeepSeek R1 8B,8B,Q4_K_M,M6,24,MLX,28,,2026-08,estimated,,,
+Qwen 3.5 9B,9B,Q4_K_M,M6,24,MLX,25,,2026-08,estimated,,,
+Phi-4 14B,14B,Q4_K_M,M6,24,MLX,16,,2026-08,estimated,,,
+Gemma 4 E4B,4B,Q4_K_M,M6,24,MLX,54,,2026-08,estimated,,,
+LFM2.5-2.6B,2.6B,Q4_K_M,M6,24,MLX,79,,2026-08,estimated,,,
+DeepSeek V4 Flash,284B-A13B,Q4_K_M,M5 Ultra,256,MLX,45,,2026-08,estimated,,,
+Inkling-Small,276B,Q4_K_M,M5 Ultra,256,MLX,49,,2026-08,estimated,,,
+Qwen3-235B-A22B,235B,Q4_K_M,M5 Ultra,256,MLX,29,,2026-08,estimated,,,
+Mistral Small 4,119B,Q4_K_M,M5 Ultra,96,MLX,79,,2026-08,estimated,,,
+GPT-oss 120B,117B-A5.1B,MXFP4,M5 Ultra,96,MLX,120,,2026-08,estimated,,,
+Llama 3.3 70B,70B,Q4_K_M,M5 Ultra,96,MLX,23,,2026-08,estimated,,,
+DeepSeek R1 70B,70B,Q4_K_M,M5 Ultra,96,MLX,23,,2026-08,estimated,,,
+Qwen3-Coder-Next,80B,Q4_K_M,M5 Ultra,96,MLX,130,,2026-08,estimated,,,
+GLM-4.5-Air,106B,Q4_K_M,M5 Ultra,96,MLX,49,,2026-08,estimated,,,
+Laguna S 2.1,118B,Q4_K_M,M5 Ultra,96,MLX,68,,2026-08,estimated,,,
+Llama 3.1 405B,405B,Q4_K_M,M5 Ultra,512,MLX,4,,2026-08,estimated,,,
+Qwen 2.5 72B,72B,Q4_K_M,M5 Ultra,96,MLX,23,,2026-08,estimated,,,
+GLM-5.3-Flash,320B-A18B,IQ3_XXS,M5 Max,128,MLX,27,,2026-09,estimated,,,
+GLM-5.3-Flash,320B-A18B,Q4_K_M,M3 Ultra,256,MLX,24,,2026-09,estimated,,,
+GLM-5.3-Flash,320B-A18B,Q4_K_M,M5 Ultra,256,MLX,35,,2026-09,estimated,,,
+Qwen3.8-Flash-Next,125B-A6B,Q4_K_M,M4 Max,128,MLX,43,,2026-09,estimated,,,
+DeepSeek V4 Flash Vision-Exp,305B-A13B,Q2_K,M5 Max,128,llama.cpp,39,,2026-09,estimated,,,
+DeepSeek V4 Flash Vision-Exp,305B-A13B,Q4_K_M,M3 Ultra,256,llama.cpp,32,,2026-09,estimated,,,
+DeepSeek V4 Flash Vision-Exp,305B-A13B,Q4_K_M,M5 Ultra,256,llama.cpp,46,,2026-09,estimated,,,
+Qwen3.8-27B,27.8B,Q4_K_M,M5 Max,128,MLX,29,,2026-09,estimated,,,
+Qwen3.8-27B,27.8B,Q4_K_M,M4 Max,64,MLX,26,,2026-09,estimated,,,
+Qwen3.8-27B,27.8B,Q4_K_M,M3 Max,64,MLX,19,,2026-09,estimated,,,
+Qwen3.8-27B,27.8B,Q4_K_M,M4 Pro,48,Ollama,13,,2026-09,estimated,,,
+GLM-5.3,753B-A40B,Q2_K,M5 Ultra,256,MLX,27,,2026-09,estimated,,,
+GLM-5.3,753B-A40B,Q2_K,M3 Ultra,256,MLX,19,,2026-09,estimated,,,
+GLM-5.3,753B-A40B,Q4_K_M,M5 Ultra,512,MLX,17,,2026-09,estimated,,,
+GLM-5.3,753B-A40B,Q4_K_M,M3 Ultra,512,MLX,11,,2026-09,estimated,,,
+Qwen3.8-27B,27.8B,Q4_K_M,M5 Ultra,256,LM Studio,55,0.5,2026-09,sourced,https://www.bgr.com/2264114/mac-studio-m5-ultra-review/,,
+Qwen3.8-27B,27.8B,Q4_K_M,M3 Ultra,96,LM Studio,40,,2026-09,sourced,https://www.bgr.com/2264114/mac-studio-m5-ultra-review/,,
+Qwen 3.5 122B-A10B,122B-A10B,unstated,M5 Ultra,256,LM Studio,80,,2026-09,sourced,https://www.bgr.com/2264114/mac-studio-m5-ultra-review/,,
+Qwen 3.5 122B-A10B,122B-A10B,unstated,M3 Ultra,96,LM Studio,60,,2026-09,sourced,https://www.bgr.com/2264114/mac-studio-m5-ultra-review/,,
+Qwen 3.5 122B-A10B,122B-A10B,Q4_K_M,M4 Max,128,MLX,39,,2026-09,estimated,,,
+Qwen 3.5 122B-A10B,122B-A10B,Q4_K_M,M3 Max,128,MLX,29,,2026-09,estimated,,,
+MiMo-V2.6-Flash,309B-A15B,MXFP4,M5 Ultra,256,MLX,65,,2026-09,estimated,,,
+Qwen 3.6-35B-A3B,35B-A3B,4-bit,M5 Max,128,MLX,126,,2026-08,community,https://omlx.ai/benchmarks/performance/nx08c47t,,
+Qwen 3.6-35B-A3B,35B-A3B,4-bit,M6,32,MLX,64,,2026-10,community,https://github.com/HDZucht/Mac-Mini-M6-LLM-benchmarks,,
+Nemotron 3.5 Lightning,30B-A3B,Q4_K_M,M6,32,llama.cpp,45,,2026-10,community,https://github.com/HDZucht/Mac-Mini-M6-LLM-benchmarks,,
+Gemma 4 26B-A4B,26B-A4B,QAT,M6,32,LM Studio,48,,2026-10,community,https://github.com/HDZucht/Mac-Mini-M6-LLM-benchmarks,,
+Gemma 4 31B,31B,QAT,M6,32,LM Studio,8,,2026-10,community,https://github.com/HDZucht/Mac-Mini-M6-LLM-benchmarks,,
+Muse Glimmer 30B,30B,unstated,M6,32,LM Studio,9,,2026-10,community,https://github.com/HDZucht/Mac-Mini-M6-LLM-benchmarks,,
+GPT-oss 20B,21B-A3.6B,unstated,M6,32,LM Studio,45,,2026-10,community,https://github.com/HDZucht/Mac-Mini-M6-LLM-benchmarks,,
+Gemma 4 12B,12B,QAT,M6,32,LM Studio,19,,2026-10,community,https://github.com/HDZucht/Mac-Mini-M6-LLM-benchmarks,,
+Qwen 3 30B-A3B,30B-A3B,4-bit,M4 Max,128,MLX,110,,2026-01,sourced,https://arxiv.org/abs/2601.19139,,vllm-mlx serving on MLX (paper's figure 109.7); the paper's plain mlx-lm run is 107.4 tok/s.
+Qwen 3 30B-A3B,30B-A3B,4-bit,M4 Max,128,llama.cpp,90,,2026-01,sourced,https://arxiv.org/abs/2601.19139,,
+GPT-oss 20B,21B-A3.6B,MXFP4,M5 Max,64,MLX,108,,2026-10,estimated,,,
+GPT-oss 20B,21B-A3.6B,MXFP4,M4 Max,64,MLX,102,,2026-10,estimated,,,
+GPT-oss 20B,21B-A3.6B,MXFP4,M4 Pro,24,MLX,64,,2026-10,estimated,,,
+GPT-oss 20B,21B-A3.6B,MXFP4,M4,16,MLX,34,,2026-10,estimated,,,
+Gemma 4 12B,12B,Q4_K_M,M5 Max,64,MLX,64,,2026-10,estimated,,,
+Gemma 4 12B,12B,Q4_K_M,M4 Max,64,MLX,57,,2026-10,estimated,,,
+Gemma 4 12B,12B,Q4_K_M,M4 Pro,24,MLX,30,,2026-10,estimated,,,
+Gemma 4 12B,12B,Q4_K_M,M4,16,MLX,13,,2026-10,estimated,,,
+MiniMax M2.5,230B-A10B,Q4_K_M,M5 Ultra,256,MLX,57,,2026-10,estimated,,,
+MiniMax M2.5,230B-A10B,Q4_K_M,M3 Ultra,256,MLX,41,,2026-10,estimated,,,
+KAT-Coder-V2.5,35B-A3B,OptiQ-4bit,M5 Max,128,MLX,89.3,,2026-08-07,community,https://omlx.ai/benchmarks/performance/wb1lwa86,1k,"40-core GPU. oMLX v0.5.7, MTP/DFlash off; mlx-community/KAT-Coder-V2.5-Dev-OptiQ-4bit (mixed 4/8-bit). 84.8 tok/s at 4k."
+KAT-Coder-V2.5,35B-A3B,6-bit,M3 Max,48,MLX,69.5,,2026-08-13,community,https://omlx.ai/benchmarks/jh2cfi2q,1k,"40-core GPU. oMLX v0.5.8.dev3, MTP/DFlash off; KAT-Coder-V2.5-Dev-6bit-XL-mlx. 67.7 tok/s at 4k."
+KAT-Coder-V2.5,35B-A3B,unstated,M4 Max,48,LM Studio,74.2,,2026-09-19,community,https://llm-bench.io/benchmarks/cmu7uax9p012501qez3jxulzj,up to ~5.9k tokens used,"40-core GPU part (16-core CPU), one anonymous llm-bench.io run. LM Studio with MLX-format OptiQ weights by model id; the source's quantization field is empty, so the row says 'unstated'. Thinking on; the figure is the mean of four task scenarios (73.2-75.6 tok/s each, at most 5,907 context tokens), with prefill reported separately."
+KAT-Coder-V2.5,35B-A3B,oQ2e,M5,32,MLX,49.5,,2026-08,community,https://huggingface.co/mlx-works/KAT-Coder-V2.5-Dev-oQ2e,pp1024/tg128,"MacBook Air. oMLX v0.5.4, TurboQuant 4-bit KV cache, thinking off; 2-bit oQ2e (47.1 tok/s at pp4096)."
+North Mini Code 1.0,30B-A3B,4-bit,M5 Max,64,MLX,119.7,,2026-06-26,community,https://omlx.ai/benchmarks/performance/iwr2tv04,1k,40-core GPU. oMLX v0.4.4; MLX 4-bit (repo not stated). 106.8 tok/s at 4k.
+North Mini Code 1.0,30B-A3B,4-bit,M5 Pro,64,MLX,69.8,,2026-06-13,community,https://omlx.ai/benchmarks/m3fbfge9,1k,20-core GPU. oMLX v0.4.4rc1; MLX 4-bit. 61.8 tok/s at 4k.
+North Mini Code 1.0,30B-A3B,4-bit,M5,32,MLX,34.2,,2026-09-18,community,https://omlx.ai/benchmarks/performance/wdhg32fe,1k,"10-core GPU. oMLX v0.6.4, TurboQuant 4-bit KV cache, MTP/DFlash off. 30.5 tok/s at 4k."
+LFM2.5-24B-A2B,24B-A2.45B,Q4_K_M,M5 Max,,llama.cpp,184,,2026-10-13,sourced,https://huggingface.co/LiquidAI/LFM2.5-24B-A2B,4K-token input,Vendor model card: Liquid AI's Pipette device-benchmarking infrastructure on llama.cpp (build not stated).
+LFM2.5-24B-A2B,24B-A2.45B,4-bit,M4,24,MLX,59.9,,2026-10-16,community,https://omlx.ai/benchmarks/performance/scui8boi,1k,"10-core GPU. oMLX v0.7.0, MTP/DFlash off; LiquidAI/LFM2.5-24B-A2B-MLX-4bit. 57.4 tok/s at 4k."
+LFM2.5-24B-A2B,24B-A2.45B,4-bit,M5,32,MLX,74.2,,2026-10-17,community,https://omlx.ai/benchmarks/performance/2i8tuyfz,4k,"10-core GPU. oMLX v0.7.1rc1, all speculative options off; LiquidAI/LFM2.5-24B-A2B-MLX-4bit. The linked page features the 32k run (56.0 tok/s); 74.2 is the session's 4k row."
+LFM2.5-24B-A2B,24B-A2.45B,5-bit,M4 Max,48,MLX,89.7,,2026-10-15,community,https://omlx.ai/benchmarks/performance/s6i5qasz,4k,"40-core GPU. oMLX v0.7.0, TurboQuant 8-bit KV cache, MTP/DFlash off; LiquidAI/LFM2.5-24B-A2B-MLX-5bit. 78.3 tok/s at 16k."
+Qwen 3.6-35B-A3B,35B-A3B,Q4_K_M,M5 Max,,llama.cpp,118,,2026-10-13,sourced,https://huggingface.co/LiquidAI/LFM2.5-24B-A2B,4K-token input,"Competitor baseline on Liquid AI's LFM2.5-24B-A2B card (Pipette, llama.cpp)."
+Gemma 4 26B-A4B,26B-A4B,Q4_K_M,M5 Max,,llama.cpp,107,,2026-10-13,sourced,https://huggingface.co/LiquidAI/LFM2.5-24B-A2B,4K-token input,"Competitor baseline on Liquid AI's LFM2.5-24B-A2B card (Pipette, llama.cpp)."
+Nemotron 3.5 Lightning,30B-A3B,Q4_K_M,M5 Max,,llama.cpp,114,,2026-10-13,sourced,https://huggingface.co/LiquidAI/LFM2.5-24B-A2B,4K-token input,"Competitor baseline on Liquid AI's LFM2.5-24B-A2B card (Pipette, llama.cpp)."
+Qwen 3.6-35B-A3B,35B-A3B,Q8_0,M5 Max,128,llama.cpp,92.9,,2026-06-14,community,https://github.com/stared/benching-local-llms-on-apple-silicon,128-token prompt,"40-core GPU. llama-server (Homebrew Metal build), -fa on, -c 16384, MTP flags off; 400 tokens, median of 3. 86.9 tok/s at 8k."
+Qwen 3.6-35B-A3B,35B-A3B,Q8_0,M3 Ultra,512,llama.cpp,81.2,,2026-10-14,community,https://llamaperf.com/report/785e7589-9d2c-4a45-a57d-db59c0efe6cb,TG128 from empty context,"llama.cpp b49650adb, flash attention on, F16 KV; anonymous llamaperf submission."
+Qwen 3.6-35B-A3B,35B-A3B,4-bit,M5 Ultra,256,MLX,153.4,,2026-09-20,community,https://github.com/theNetworkChuck/mac-studio-m5-ultra-local-ai,"512-token prompt, 128 generated","Mac Studio, 80-core GPU, 256 GB, macOS 27.0. mlx_lm.benchmark -p 512 -g 128 -n 5 (mlx-lm 0.31.3, MLX 0.32.2): plain decode with no HTTP server or chat template, median of the five trial lines in the repo's engine.json; mlx-community/Qwen3.6-35B-A3B-4bit. The repo's headline test streams the same cell through mlx_lm.server (thinking and prompt cache off): 126.0 tok/s."
+Qwen 3.6-35B-A3B,35B-A3B,4-bit,M3 Ultra,512,MLX,106.4,,2026-09-20,community,https://github.com/theNetworkChuck/mac-studio-m5-ultra-local-ai,"512-token prompt, 128 generated","Mac Studio, 80-core GPU, 512 GB, macOS 26.5.1. mlx_lm.benchmark -p 512 -g 128 -n 5 (mlx-lm 0.31.3, MLX 0.32.2): plain decode with no HTTP server or chat template, median of the five trial lines in the repo's engine.json; mlx-community/Qwen3.6-35B-A3B-4bit. The repo's headline test streams the same cell through mlx_lm.server (thinking and prompt cache off): 86.3 tok/s. The source discloses a stuck background process on one of the M3 Ultra's 32 CPU cores during these runs, which can only have slowed it."
+Qwen3.8-27B,27.8B,BF16,M5 Ultra,512,MLX,19.69,,2026-10-15,sourced,https://machinelearning.apple.com/research/mlx-distributed-inference,"8,192-token context, 128 generated",Apple ML Research: mlx_lm.benchmark -p 8192 -g 128 -b 1 on one Mac Studio.
+Qwen3.8-27B,27.8B,BF16,M3 Ultra,512,MLX,12.46,,2026-10-15,sourced,https://machinelearning.apple.com/research/mlx-distributed-inference,"8,192-token context, 128 generated",Apple ML Research: mlx_lm.benchmark -p 8192 -g 128 -b 1 on one Mac Studio.
+Qwen3.8-27B,27.8B,Q4_K_M,M5 Ultra,256,llama.cpp,46.27,,2026-09-21,sourced,https://www.tomshardware.com/desktops/mini-pcs/apple-mac-studio-m5-ultra-review,"ISL 2048 / OSL 512, depth 0","80-core GPU. Tom's Hardware review; llama.cpp, no MTP."
+Qwen3.8-27B,27.8B,oQ4e,M5 Ultra,256,MLX,48,,2026-09,sourced,https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/,"6,091-token prompt","MacStories review: oMLX 0.7.0.dev2, MTP off, thinking off, single run; Qwen3.8-27B-oQ4e-mtp checkpoint."
+Qwen3.8-27B,27.8B,oQ4e,M3 Ultra,512,MLX,31,,2026-09,sourced,https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/,"6,091-token prompt","MacStories review: oMLX 0.7.0.dev2, MTP off, thinking off, single run; Qwen3.8-27B-oQ4e-mtp checkpoint."
+Qwen3.8-27B,27.8B,8-bit,M5 Max,128,MLX,17.9,,2026-08-20,community,https://github.com/nicedreamzapp/claude-code-local/blob/main/docs/BENCHMARKS.md,"short prompt, 400 tokens","mlx-dspark 0.14 --mode baseline (no drafter) on MLX 0.32, greedy; lmstudio-community/Qwen3.8-27B-MLX-8bit."
+Qwen3.8-27B,27.8B,QAT,M6,24,LM Studio,9.42,12.28,2026-09-22,community,https://nyaa.sh/reviews/mac-mini-m6-local-ai,short prompt,"Mac mini M6. 4-bit QAT MLX in LM Studio; single run, medium reasoning."
+Qwen3.8-27B,27.8B,4-bit,M6,24,MLX,9.8,,2026-10-09,community,https://llamaperf.com/report/a531403b-f06b-4efe-b033-c067a3c68b0f,525-token prompt,"Mac mini M6. mlx-vlm 0.7.3, MTP/speculative off; mlx-community 4-bit; single run, anonymous llamaperf report."
+Qwen3.8-27B,27.8B,4-bit,M5 Ultra,256,MLX,54.7,,2026-09-20,community,https://github.com/theNetworkChuck/mac-studio-m5-ultra-local-ai,"512-token prompt, 128 generated","Mac Studio, 80-core GPU, 256 GB, macOS 27.0. mlx_lm.benchmark -p 512 -g 128 -n 5 (mlx-lm 0.31.3, MLX 0.32.2): plain decode with no HTTP server or chat template, median of the five trial lines in the repo's engine.json; mlx-community/Qwen3.8-27B-4bit. The repo's headline test streams the same cell through mlx_lm.server (thinking and prompt cache off): 49.2 tok/s."
+Qwen3.8-27B,27.8B,4-bit,M3 Ultra,512,MLX,37.6,,2026-09-20,community,https://github.com/theNetworkChuck/mac-studio-m5-ultra-local-ai,"512-token prompt, 128 generated","Mac Studio, 80-core GPU, 512 GB, macOS 26.5.1. mlx_lm.benchmark -p 512 -g 128 -n 5 (mlx-lm 0.31.3, MLX 0.32.2): plain decode with no HTTP server or chat template, median of the five trial lines in the repo's engine.json; mlx-community/Qwen3.8-27B-4bit. The repo's headline test streams the same cell through mlx_lm.server (thinking and prompt cache off): 32.8 tok/s. The source discloses a stuck background process on one of the M3 Ultra's 32 CPU cores during these runs, which can only have slowed it."
+Qwen 3 4B,4B,8-bit,M6,24,LM Studio,31.47,0.64,2026-09-22,community,https://nyaa.sh/reviews/mac-mini-m6-local-ai,short prompt,Mac mini M6. Qwen3-4B-Thinking-2507; LM Studio (engine not stated); single run.
+Qwen 3 4B,4B,unstated,M6,32,MLX,53.35,,2026-09-21,sourced,https://tbreak.com/apple-mac-mini-m6-review-uae/,,"Mac mini M6, 12-core GPU. tbreak review: MLX 0.32.2 / mlx-lm 0.31.3; quantization not stated."
+Qwen 3 30B-A3B,30B-A3B,unstated,M6,32,MLX,62.01,,2026-09-21,sourced,https://tbreak.com/apple-mac-mini-m6-review-uae/,,"Mac mini M6, 12-core GPU. tbreak review: MLX 0.32.2 / mlx-lm 0.31.3; quantization not stated (18.0 GB peak)."
+Qwen 3 30B-A3B,30B-A3B,unstated,M5 Max,128,MLX,130.63,,2026-09-21,sourced,https://tbreak.com/mac-studio-m5-max-review-local-ai/,,"Mac Studio, 40-core GPU. tbreak review: MLX 0.32.2 / mlx-lm 0.31.3; quantization not stated."
+Qwen 3 32B,32B,unstated,M5 Max,128,Ollama,24.88,,2026-09-21,sourced,https://tbreak.com/mac-studio-m5-max-review-local-ai/,,"Mac Studio, 40-core GPU. tbreak review: Ollama (version not stated); quantization not stated."
+GPT-oss 120B,117B-A5.1B,unstated,M5 Max,128,Ollama,75.65,,2026-09-21,sourced,https://tbreak.com/mac-studio-m5-max-review-local-ai/,,"Mac Studio, 40-core GPU. tbreak review: Ollama (version not stated), 65 GB model file; the source does not state a quantization, so the row says 'unstated'. Ollama's gpt-oss:120b is the MXFP4 build OpenAI released (65 GB), so where this run scales the model's other chips it is costed at MXFP4. Repeated at 75.60 tok/s after a 20-run stress test."
+GPT-oss 20B,21B-A3.6B,unstated,M5 Max,128,Ollama,107.51,,2026-09-21,sourced,https://tbreak.com/mac-studio-m5-max-review-local-ai/,,"Mac Studio, 40-core GPU. tbreak review: Ollama (version not stated); quantization not stated. Ollama's gpt-oss:20b is the MXFP4 build OpenAI released, so where this run scales the model's other chips it is costed at MXFP4."
+Llama 3.3 70B,70B,4-bit,M5 Max,128,MLX,13.1,,2026-09-21,sourced,https://tbreak.com/mac-studio-m5-max-review-local-ai/,,"Mac Studio, 40-core GPU. tbreak review: 4-bit MLX, 41.2 GB peak; MLX 0.32.2 / mlx-lm 0.31.3 per the section's setup."
+Qwen 3.5 122B-A10B,122B-A10B,Q4_K_M,M5 Max,128,llama.cpp,42.9,,2026-04-05,community,https://github.com/baem1n/llm-bench,"~64-token prompt, 512 generated","MacBook Pro 14, 40-core GPU. llama.cpp b8500 llama-server, unsloth Q4_K_M, median of 5; other sessions on the same machine gave 38.5–39.4."
+Qwen 3.5 122B-A10B,122B-A10B,4-bit,M5 Ultra,256,MLX,87.7,,2026-09-20,community,https://github.com/theNetworkChuck/mac-studio-m5-ultra-local-ai,"512-token prompt, 128 generated","Mac Studio, 80-core GPU, 256 GB, macOS 27.0. mlx_lm.benchmark -p 512 -g 128 -n 5 (mlx-lm 0.31.3, MLX 0.32.2): plain decode with no HTTP server or chat template, median of the five trial lines in the repo's engine.json; mlx-community/Qwen3.5-122B-A10B-4bit. The repo's headline test streams the same cell through mlx_lm.server (thinking and prompt cache off): 77.5 tok/s."
+Qwen 3.5 122B-A10B,122B-A10B,4-bit,M3 Ultra,512,MLX,58.6,,2026-09-20,community,https://github.com/theNetworkChuck/mac-studio-m5-ultra-local-ai,"512-token prompt, 128 generated","Mac Studio, 80-core GPU, 512 GB, macOS 26.5.1. mlx_lm.benchmark -p 512 -g 128 -n 5 (mlx-lm 0.31.3, MLX 0.32.2): plain decode with no HTTP server or chat template, median of the five trial lines in the repo's engine.json; mlx-community/Qwen3.5-122B-A10B-4bit. The repo's headline test streams the same cell through mlx_lm.server (thinking and prompt cache off): 51.3 tok/s. The source discloses a stuck background process on one of the M3 Ultra's 32 CPU cores during these runs, which can only have slowed it."
+Gemma 4 26B-A4B,26B-A4B,4-bit,M6,32,MLX,52.2,,2026-09-24,community,https://github.com/SharpAI/SwiftLM/pull/173,~530-token prompt,"Mac mini M6, 12-core GPU. SwiftLM (MLX-Swift) main@318f712 + PR #172; mlx-community/gemma-4-26b-a4b-it-4bit."
+Gemma 4 26B-A4B,26B-A4B,MXFP4_MOE,M3 Ultra,512,llama.cpp,87.8,,2026-10-13,community,https://llamaperf.com/report/b3cd366e-221d-4702-acf3-e3a67841aa42,"TG32, depth 0","llama.cpp b8783, llama-bench, flash attention on, mean of 5, MTP off; anonymous llamaperf submission."
+MiMo-V2.6-Flash,309B-A15B,4-bit,M3 Ultra,256,MLX,59.4,,2026-09-23,community,https://huggingface.co/sayyidfareed/MiMo-V2.6-Flash-RL-MLX-4bit-MTP,128-token serial decode,"RL checkpoint (same architecture as MOPD). oMLX 0.7.0.dev2 / MLX 0.32.2 / mlx-lm 0.31.3, MTP not executed; 4-bit affine dense + MXFP4 experts."
+MiMo-V2.6-Flash,309B-A15B,4-bit,M3 Ultra,256,MLX,59,,2026-09,community,https://github.com/raullenchai/Rapid-MLX/blob/main/docs/release-notes/v0.15.0.md,4K,"rapid-mlx 0.15.0, no MTP or speculative execution; mimo-v2.6-flash-4bit (171.7 GB). 49 tok/s at 30K."
+DeepSeek V4.1 Flash,552B-A16B,oQ4e,M3 Ultra,512,MLX,20.23,,2026-09-11,community,https://github.com/jundot/omlx/releases/tag/v0.7.0.dev2,4K,"Base V4.1 checkpoint (the 1017 snapshot has the same architecture). oMLX 0.7.0.dev2, -mtp checkpoint run with MTP off, Engram tables in RAM. 19.67 tok/s at 64K."
+DeepSeek V4.1 Flash,552B-A16B,Q2 GGUF,M5 Max,128,ds4,29.6,,2026-10-11,community,https://github.com/Chida82/sf-ds4-1flash,2K,"SSD-streamed: 341 GiB Q2 GGUF with an 82 GB expert cache on a 128 GB Mac (sf-ds4-1flash fa51b38, Metal, no speculation); steady decode, median of 3."
+DeepSeek V4.1 Flash,552B-A16B,4/8-bit mixed,M3 Ultra,512,MLX,6.53,,2026-09-10,community,https://huggingface.co/pipenetwork/DeepSeek-V4.1-Flash-MLX-mixed-4_8bit/discussions/1,8K,PipeNetwork custom V4.1 runtime on mlx 0.32.2 / mlx-lm 0.31.3 (immature loader); 427.6 GB.
+Ling-3.0 Flash,124B-A5B,4-bit,M5 Max,128,MLX,68,,2026-08-07,community,https://omlx.ai/benchmarks/performance/27bv0lyf,1k,"40-core GPU. oMLX v0.5.7, MTP/DFlash off; Ling-3.0-flash-MLX-4bit, 66.7 GB peak. 66.8 tok/s at 4k."
+Qwen3.8-Flash-Next,125B-A6B,4-bit,M5 Max,128,MLX,47,,2026-08-29,community,https://mtplx.com/models/qwen3.8-flash-next/,coding task (prompt length not stated),"MTPLX 2.10.0 mtplx serve, plain autoregressive (MTP off); flat 4-bit g64 'Bare Speed' pack. Published by the runtime's author."
+Qwen3.8-Flash-Next,125B-A6B,4-bit,M5 Max,128,MLX,43.8,,2026-08-29,community,https://huggingface.co/Youssofal/Qwen3.8-Flash-Next-MTPLX-Optimized-Speed,,"MTPLX 2.10.0, plain autoregressive (MTP off); 'Optimized Speed' pack: 4-bit g64 with 8-bit sparse-attention projections."
+Qwen3.8-Flash-Next,125B-A6B,oQ4e,M5 Max,128,MLX,28.5,,2026-08-28,community,https://omlx.ai/benchmarks/performance/n65ria6o,1k,"40-core GPU. oMLX v0.6.3, MTP off (-mtp checkpoint), thinking on."
+Qwen3.8-Flash-Next,125B-A6B,4-bit,M3 Ultra,512,MLX,26.5,,2026-08-31,community,https://huggingface.co/RockTalk/Qwen3.8-Flash-Next-MLX-4bit,,"RockTalk mlx_qwen4exp custom port, plain greedy, 26.4–26.6 (llama.cpp Metal on the same machine: 26.4); 4-bit affine g64."
+Qwen3.8-Flash-Next,125B-A6B,4-bit,M3 Ultra,512,MLX,25.1,,2026-09-02,community,https://huggingface.co/mlx-community/Qwen3.8-Flash-Next-4bit/discussions/1,short prompt,"oMLX 0.6.3, mlx-community 4-bit g32; wall-clock including a short prefill, so a floor (mean of 2)."
+Qwen3.8-Flash-Next,125B-A6B,IQ4_NL,M5 Ultra,256,llama.cpp,57,,2026-10-11,community,https://llamaperf.com/report/d3cbc3b7-96b3-421b-9ac5-7298dd9dd05a,,"llama.cpp b11538, no speculation, f16 KV, 262K allocated; one user's r/llamacpp post via llamaperf."
+GLM-5.3-Flash,320B-A18B,unstated,M5 Ultra,256,llama.cpp,39.7,,2026-10-11,community,https://llamaperf.com/report/d9a97350-114a-4c5e-bfe7-af122a488c30,,"llama.cpp (Metal), MTP off (61 tok/s with the 3-token MTP head, a different workload), 262K allocated; one user's r/LocalLLM post as summarised by llamaperf. Quantization not stated. Not used to scale other chips: the run may have used a branch build (MTP and a Metal deep-context fix were unmerged PRs when it ran) and its quant is unconfirmed."
+Bonsai 27B,27B,Q1_0_g128,M5 Max,,llama.cpp,66.4,,2026-07,sourced,https://huggingface.co/prism-ml/Bonsai-27B-gguf,tg128,"Vendor model card: PrismML llama.cpp fork (Metal), llama-bench; 3.9 GB."
+Bonsai 27B,27B,Q1_0_g128,M5 Pro,,llama.cpp,44.2,,2026-07,sourced,https://huggingface.co/prism-ml/Bonsai-27B-gguf,tg128,"Vendor model card: PrismML llama.cpp fork (Metal), llama-bench; 3.9 GB."
+Bonsai 27B,27B,Q1_0_g128,M4 Pro,,llama.cpp,26,,2026-07,sourced,https://huggingface.co/prism-ml/Bonsai-27B-gguf,tg128,"Vendor model card: PrismML llama.cpp fork (Metal), llama-bench; 3.9 GB."
+Ternary Bonsai 2 27B,27.36B,PQ2_0,M5 Max,,llama.cpp,46.8,,2026-09-16,sourced,https://github.com/PrismML-Eng/Bonsai-demo/blob/main/bonsai-2-27b-whitepaper.pdf,"tg128, depth 0, batch 1","Vendor whitepaper Table 6: PrismML llama.cpp fork (Metal), release build, mean of 3 after warm-up; 7.21 GB. Replaces the model card's 47.0, which was labelled pre-rotation."
+Ternary Bonsai 2 27B,27.36B,PQ2_0,M5 Pro,,llama.cpp,28.1,,2026-09,sourced,https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf,"tg128, depth 0, batch 1","Vendor model card (current stack): PrismML llama.cpp fork (Metal), llama-bench; 7.21 GB. The whitepaper's Table 6 lists 27.7."
+Ternary Bonsai 2 9B,9.41B,PQ2_0,M5 Pro,,llama.cpp,76.5,,2026-10,sourced,https://github.com/PrismML-Eng/Bonsai-demo/blob/main/bonsai-2-small-whitepaper.pdf,"tg128, batch 1","Vendor whitepaper Table 3: MacBook Pro M5 Pro, PrismML llama.cpp fork (Metal), llama-bench, flash attention on, mean of 5; 2.4 GB."
+Muse Spark Open,816B-A42B,oQ3e,M3 Ultra,512,MLX,21,,2026-10-15,sourced,https://huggingface.co/blog/meta-muse-spark-open,"1024-token prompt, 128 generated","Hugging Face launch post: MLX (oMLX/mlx-lm, app not named); the pre-16-Oct oQ3e upload (369.5 GB = 344 GiB; the 16 Oct re-upload is 371.5 GB, 3.62 bpw), ~225 tok/s prefill."
+Muse Spark Open,816B-A42B,Q2_K,M3 Ultra,512,llama.cpp,18,,2026-10-15,sourced,https://huggingface.co/blog/meta-muse-spark-open,,"Hugging Face launch post: llama serve -hf ggml-org/Muse-Spark-Open-816B-A42B-GGUF:Q2_K (imatrix, 304 GB); prompt length not stated."
+Mistral Medium 3.5,128B,FP8,M5 Ultra,512,MLX,7.7,,2026-10-15,sourced,https://machinelearning.apple.com/research/mlx-distributed-inference,"8,192-token context, 128 generated","Apple ML Research: mlx_lm.benchmark -p 8192 -g 128 -b 1 on one Mac Studio, native FP8."
+Mistral Medium 3.5,128B,FP8,M3 Ultra,512,MLX,4.95,,2026-10-15,sourced,https://machinelearning.apple.com/research/mlx-distributed-inference,"8,192-token context, 128 generated","Apple ML Research: mlx_lm.benchmark -p 8192 -g 128 -b 1 on one Mac Studio, native FP8."
+Nemotron 3.5 Bolt 74B-A9B,74B-A9B,5-bit,M5 Max,128,MLX,63.6,,2026-10-16,community,https://huggingface.co/nativ-community/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-5bit,64-token greedy sample,"Community MLX port: MLX-VLM e17c49a on MLX 0.32.4; 5-bit affine g64, vision encoder BF16; 59.6 GB peak."
+Nemotron 3.5 Bolt 74B-A9B,74B-A9B,4-bit,M5 Max,128,MLX,71.7,,2026-10-16,community,https://huggingface.co/nativ-community/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-4bit,128-token greedy sample,"Community MLX port: MLX-VLM e17c49a on MLX 0.32.4; 4-bit affine g64 (43.15 GB), no MTP head in the checkpoint; 46.6 GB peak. Same figure in mlx-vlm PR #2528."
+Nemotron 3.5 Bolt 74B-A9B,74B-A9B,8-bit,M5 Max,128,MLX,37,,2026-10-15,community,https://huggingface.co/divinetribe/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-MLX-8bit,,Community MLX port: mlx-vlm 0.7.8 + the uploader's nemotron_h_omni port; 8-bit g64 (~81 GB); lower bound of 37–41.
+Nemotron 3.5 Bolt 74B-A9B,74B-A9B,Q4_K_M,M3 Ultra,96,llama.cpp,41.61,,2026-10-16,community,https://github.com/ggml-org/llama.cpp/issues/30610,tg128,"Patched build: llama.cpp f12aaa3 + the then-unmerged <9> map0 Metal fix (PR #30699, merged 20 Oct in b11755), llama-bench -fa 1 -r 3; community Q4_K_M from BF16 (45 GiB)."
+Nemotron 3.5 Bolt 74B-A9B,74B-A9B,4-bit,M3 Ultra,256,MLX,56.5,,2026-10-15,community,https://github.com/raullenchai/Rapid-MLX/blob/main/docs/engineering/performance/2026-10-15-nemotron-bolt-decode.md,"1024-token prompt, 96 generated","Rapid-MLX text loader (PR #4679, released in Rapid-MLX 0.16.2 on 16 Oct), MLX 0.32.4; 4-bit g64 with BF16 head, router and latent projections; batch 1, temperature 0, no speculation or KV quantization; median of three runs (56.29 / 56.50 / 56.50) on a 60-core GPU, shared machine. Published by the runtime's developers."
+Nemotron 3.5 Super VL 120B-A12B,120B-A12B,NVFP4,M5 Max,128,MLX,30.6,,2026-10-16,community,https://github.com/Blaizzy/mlx-vlm/pull/2528,"160 generated tokens, greedy","mlx-vlm PR #2528 (merged 16 Oct) on MLX 0.32.4, MTP off; NVFP4 weights 75.0 GB. 57.1 tok/s with the native MTP head (not a plain-decode figure)."
+MiniCPM-V 4.7 35B-A3B,35B-A3B,MXFP4,M5 Max,64,MLX,100.2,,2026-10-17,community,https://omlx.ai/benchmarks/performance/gx7umq0k,1k,"40-core GPU. oMLX v0.7.1rc1, MTP/DFlash/SpecPrefill off; MiniCPM-V-4.7-35B-A3B-mxfp4. 101.6 tok/s at 4k."
+MiniCPM-V 4.7 35B-A3B,35B-A3B,5-bit,M4 Pro,64,MLX,48.2,,2026-10-16,community,https://omlx.ai/benchmarks/performance/idipi01i,1k,"16-core GPU. oMLX v0.7.1.dev2, MTP/DFlash off. 47.9 tok/s at 4k."
+Mellum2.1-12B-A2.5B-Thinking,12B-A2.5B,BF16,M5 Max,64,LM Studio,96.8,,2026-10-09,community,https://llm-bench.io/benchmarks/cmv1f2wne00tb01nphetuppkx,"short prompts, long generations","LM Studio (llama.cpp engine), speculative decoding off; BF16 GGUF; median of 3."
+Mellum2.1-12B-A2.5B-Thinking,12B-A2.5B,6-bit,M4,32,MLX,35.9,,2026-10-10,community,https://omlx.ai/benchmarks/performance/pvgphqod,4k,"10-core GPU. oMLX v0.7.1.dev1, MTP off; MLX 6-bit g64."
+Mellum2.1-12B-A2.5B-Thinking,12B-A2.5B,Q4_K_M,M4,16,llama.cpp,50,,2026-10-08,community,https://note.com/hacklog_stealth/n/n97927ee87cac,short coding prompts,"Mac mini M4, 10-core GPU. Homebrew llama.cpp llama-server, -ngl 99, -c 16384; official Q4_K_M (8.07 GB). Approximate figure, run before the Metal NaN fix (b11681)."
+Kolibri-1,78B-A3.5B,4-bit,M1 Max,64,MLX,52,,2026-10-03,community,https://huggingface.co/velaia/Kolibri-1-MLX-4bit,,"mlx 0.32.3 / mlx-lm 0.32.0 with the repo's bundled kolibri1 loader (mlx-lm PR #1945 unmerged); 4-bit mixed, 4.54 bpw; lower bound of 52–56."
+MiniMax-M3,428B-A23B,4-bit,M3 Ultra,512,MLX,28.9,,2026-06-15,community,https://omlx.ai/benchmarks/performance/mbkvpehz,1k,"80-core GPU. oMLX v0.4.4rc2; MLX 4-bit. 20.8 tok/s at 4k, 18.9 at 32k."
+Muse Spark Open,816B-A42B,oQ3e,M5 Ultra,512,MLX,31,,2026-10,estimated,,,
+Beam 1.0,501B-A23B,Q4_K_M,M5 Ultra,512,llama.cpp,27,,2026-10,estimated,,,
+Beam 1.0,501B-A23B,IQ3_XXS,M5 Ultra,256,llama.cpp,39,,2026-10,estimated,,,
+Beam 1.0,501B-A23B,Q4_K_M,M3 Ultra,512,llama.cpp,19,,2026-10,estimated,,,
+Nemotron 3.5 Super VL 120B-A12B,120B-A12B,Q4_K_M,M4 Max,128,llama.cpp,36,,2026-10,estimated,,,
+Nemotron 3.5 Super VL 120B-A12B,120B-A12B,Q4_K_M,M5 Ultra,256,llama.cpp,74,,2026-10,estimated,,,
+Nemotron 3.5 Super VL 120B-A12B,120B-A12B,Q4_K_M,M3 Ultra,256,llama.cpp,59,,2026-10,estimated,,,
+Nemotron 3.5 Bolt 74B-A9B,74B-A9B,4-bit,M5 Pro,48,MLX,31,,2026-10,estimated,,,
+Nemotron 3.5 Bolt 74B-A9B,74B-A9B,4-bit,M4 Max,64,MLX,52,,2026-10,estimated,,,
+Nemotron 3.5 Bolt 74B-A9B,74B-A9B,4-bit,M3 Max,64,MLX,39,,2026-10,estimated,,,
+LFM2.5-24B-A2B,24B-A2.45B,Q4_K_M,M5 Pro,24,MLX,116,,2026-10,estimated,,,
+LFM2.5-24B-A2B,24B-A2.45B,Q4_K_M,M6,24,MLX,79,,2026-10,estimated,,,
+LFM2.5-24B-A2B,24B-A2.45B,Q4_K_M,M4 Pro,24,Ollama,90,,2026-10,estimated,,,
+North Mini Code 1.0,30B-A3B,Q4_K_M,M6,24,Ollama,37,,2026-10,estimated,,,
+North Mini Code 1.0,30B-A3B,Q4_K_M,M4 Pro,24,Ollama,65,,2026-10,estimated,,,
+North Mini Code 1.0,30B-A3B,Q4_K_M,M4 Max,64,MLX,114,,2026-10,estimated,,,
+North Mini Code 1.0,30B-A3B,Q4_K_M,M3 Max,64,MLX,82,,2026-10,estimated,,,
+MiniCPM-V 4.7 35B-A3B,35B-A3B,Q4_K_M,M5 Pro,24,MLX,54,,2026-10,estimated,,,
+MiniCPM-V 4.7 35B-A3B,35B-A3B,Q4_K_M,M6,24,MLX,54,,2026-10,estimated,,,
+MiniCPM-V 4.7 35B-A3B,35B-A3B,Q4_K_M,M4 Max,64,MLX,84,,2026-10,estimated,,,
+Mistral Medium 3.5,128B,Q4_K_M,M5 Max,128,MLX,7,,2026-10,estimated,,,
+Mistral Medium 3.5,128B,Q4_K_M,M5 Ultra,96,MLX,13,,2026-10,estimated,,,
+Mistral Medium 3.5,128B,Q4_K_M,M4 Max,128,MLX,6,,2026-10,estimated,,,
+Kolibri-1,78B-A3.5B,Q4_K_M,M5 Max,64,MLX,75,,2026-10,estimated,,,
+Kolibri-1,78B-A3.5B,Q4_K_M,M5 Pro,64,MLX,43,,2026-10,estimated,,,
+Kolibri-1,78B-A3.5B,Q4_K_M,M4 Max,64,MLX,69,,2026-10,estimated,,,
+Kolibri-1,78B-A3.5B,Q4_K_M,M4 Pro,64,llama.cpp,39,,2026-10,estimated,,,
+Ling-3.1-flash,560B-A25B,Q4_K_M,M5 Ultra,512,llama.cpp,26,,2026-10,estimated,,,
+Ling-3.1-flash,560B-A25B,Q4_K_M,M3 Ultra,512,llama.cpp,18,,2026-10,estimated,,,
+MiniMax-M3,428B-A23B,Q4_K_M,M5 Ultra,512,MLX,42,,2026-10,estimated,,,
+MiniMax-M3,428B-A23B,IQ3_XXS,M5 Ultra,256,llama.cpp,60,,2026-10,estimated,,,
+Granite 4.2 30B,29.3B,Q4_K_M,M5 Max,64,Ollama,28,,2026-10,estimated,,,
+Granite 4.2 30B,29.3B,Q4_K_M,M5 Pro,24,Ollama,14,,2026-10,estimated,,,
+Granite 4.2 30B,29.3B,Q4_K_M,M4 Max,64,MLX,25,,2026-10,estimated,,,
+Granite 4.2 30B,29.3B,Q4_K_M,M4 Pro,24,Ollama,13,,2026-10,estimated,,,
+Granite 4.2 30B,29.3B,Q4_K_M,M6,24,MLX,8,,2026-10,estimated,,,
+Granite 4.2 30B,29.3B,Q4_K_M,M5 Ultra,96,MLX,53,,2026-10,estimated,,,
+Granite 4.2 8B,8.8B,Q4_K_M,M5 Max,64,Ollama,84,,2026-10,estimated,,,
+Granite 4.2 8B,8.8B,Q4_K_M,M4 Pro,24,Ollama,40,,2026-10,estimated,,,
+Granite 4.2 8B,8.8B,Q4_K_M,M6,24,Ollama,26,,2026-10,estimated,,,
+Granite 4.2 8B,8.8B,Q4_K_M,M4,16,Ollama,18,,2026-10,estimated,,,
+Granite 4.2 8B,8.8B,Q4_K_M,M1,8,Ollama,10,,2026-10,estimated,,,
+Mellum2.1-12B-A2.5B-Thinking,12B-A2.5B,Q4_K_M,M5 Max,64,llama.cpp,154,,2026-10,estimated,,,
+Mellum2.1-12B-A2.5B-Thinking,12B-A2.5B,Q4_K_M,M4 Pro,24,llama.cpp,122,,2026-10,estimated,,,
+Mellum2.1-12B-A2.5B-Thinking,12B-A2.5B,Q4_K_M,M6,24,llama.cpp,60,,2026-10,estimated,,,
+MiMo-V2.6-Distill-Qwen-9B,9.4B,Q4_K_M,M5 Max,64,llama.cpp,79,,2026-10,estimated,,,
+MiMo-V2.6-Distill-Qwen-9B,9.4B,Q4_K_M,M4 Pro,24,llama.cpp,38,,2026-10,estimated,,,
+MiMo-V2.6-Distill-Qwen-9B,9.4B,Q4_K_M,M6,24,llama.cpp,24,,2026-10,estimated,,,
+MiMo-V2.6-Distill-Qwen-9B,9.4B,Q4_K_M,M4,16,llama.cpp,17,,2026-10,estimated,,,
+MiMo-V2.6-Distill-Qwen-9B,9.4B,Q4_K_M,M1,8,llama.cpp,10,,2026-10,estimated,,,
+MiniMax-M2.7,229B-A10B,IQ3_XXS,M5 Max,128,llama.cpp,45,,2026-10,estimated,,,
+MiniMax-M2.7,229B-A10B,IQ3_XXS,M4 Max,128,llama.cpp,41,,2026-10,estimated,,,
+MiniMax-M2.7,229B-A10B,Q4_K_M,M5 Ultra,256,llama.cpp,57,,2026-10,estimated,,,
+Kimi K2.7 Code,1T-A32B,IQ3_S,M5 Ultra,512,llama.cpp,27,,2026-10,estimated,,,
+DeepSeek V4.1 Flash,552B-A16B,oQ4e,M5 Ultra,512,MLX,29,,2026-10,estimated,,,
+Hunyuan Hy3,295B-A21B,Q4_K_M,M5 Ultra,256,llama.cpp,30,,2026-10,estimated,,,
+GLM 5.2,753B-A40B,Q4_K_M,M5 Ultra,256,llama.cpp,22,,2026-10,estimated,,,
+Kimi K2.6,1000B-A32B,3.6 bpw,M5 Ultra,512,llama.cpp,27,,2026-10,estimated,,,"The build that sets the catalog's minimum RAM (429 GB), costed at the 3.6 bits per weight that size implies; no source names its quant."
+DeepSeek V3.2-Speciale,685B-A37B,Q4_K_M,M5 Ultra,512,llama.cpp,18,,2026-10,estimated,,,
+Kimi K2.5,1000B-A32B,3.5 bpw,M5 Ultra,512,llama.cpp,28,,2026-10,estimated,,,"The build that sets the catalog's minimum RAM (417 GB), costed at the 3.5 bits per weight that size implies; no source names its quant."
+GLM-5.1,754B-A40B,Q4_K_M,M5 Ultra,512,llama.cpp,17,,2026-10,estimated,,,
+Mistral Large 3,675B-A41B,Q4_K_M,M5 Ultra,512,llama.cpp,16,,2026-10,estimated,,,
+DeepSeek V3,685B-A37B,Q4_K_M,M5 Ultra,512,llama.cpp,18,,2026-10,estimated,,,
+DeepSeek V3.2,685B-A37B,Q4_K_M,M5 Ultra,512,llama.cpp,18,,2026-10,estimated,,,
+DeepSeek R1,671B-A37B,Q4_K_M,M5 Ultra,512,llama.cpp,18,,2026-10,estimated,,,
+GLM-4.7,355B-A32B,Q4_K_M,M5 Ultra,256,llama.cpp,21,,2026-10,estimated,,,
+Llama 4 Maverick,400B-A17B,Q4_K_M,M5 Ultra,256,llama.cpp,36,,2026-10,estimated,,,
+Qwen 3.5 397B-A17B,397B-A17B,Q4_K_M,M5 Ultra,256,llama.cpp,36,,2026-10,estimated,,,
+MiMo-V2-Flash,309B-A15B,Q4_K_M,M5 Ultra,256,llama.cpp,41,,2026-10,estimated,,,
+Step-3.5-Flash,196B-A11B,Q4_K_M,M5 Max,128,llama.cpp,29,,2026-10,estimated,,,
+Mixtral 8x22B,141B-A39B,Q4_K_M,M5 Max,128,llama.cpp,9,,2026-10,estimated,,,
+Qwen3-235B-A22B,235B-A22B,4.5 bpw,M5 Max,128,llama.cpp,16,,2026-10,estimated,,,"The build that sets the catalog's minimum RAM (128 GB), costed at the 4.5 bits per weight that size implies; no source names its quant."
+QwQ 32B,32B,Q4_K_M,M5 Max,64,llama.cpp,25,,2026-10,estimated,,,
+Qwen 3.5 27B,27B,Q4_K_M,M5 Max,64,llama.cpp,30,,2026-10,estimated,,,
+Qwen 2.5 14B,14B,Q4_K_M,M5 Max,64,llama.cpp,55,,2026-10,estimated,,,
+MiMo-V2.6-Flash,309B-A15B,4-bit,M5 Ultra,256,MLX,61.7,,2026-09-26,community,https://omlx.ai/benchmarks/performance/xkt59dw8,1k,"80-core GPU. oMLX v0.7.0rc1, MTP/DFlash off; MiMo-V2.6-Flash-RL-MLX-4bit (the RL checkpoint, same architecture as MOPD); 156.7 GB peak."
+MiMo-V2.6-Flash,309B-A15B,4-bit,M5 Ultra,256,MLX,76.4,,2026-09-26,community,https://omlx.ai/benchmarks/performance/8jtpceds,1k,"The page reports a 64-core GPU with 256 GB, a configuration Apple does not offer (bandwidth is 1.2 TB/s either way), so it does not anchor or set the reference. oMLX v0.7.0rc1, MTP off; RL-MLX-4bit-MTP checkpoint (RL, same architecture as MOPD); 154.2 GB peak. 75.1 tok/s at 4k, 56.4 at 64k."
+MiMo-V2.6-Flash,309B-A15B,4-bit,M3 Ultra,512,MLX,55.1,,2026-10-19,community,https://omlx.ai/benchmarks/performance/rahckem2,1k,"80-core GPU. oMLX v0.7.0, MTP/DFlash off; MiMo-V2.6-Flash-RL-MLX-4bit-MTP (the RL checkpoint, same architecture as MOPD); 154.3 GB peak. 53.7 tok/s at 4k in the same session (twfrx909)."
+MiniMax-M3.1-Flash,428B-A23B,oQ3e,M3 Ultra,256,MLX,25.3,,2026-10-24,community,https://omlx.ai/benchmarks/performance/aclg9c4d,1k,"60-core GPU (819 GB/s, the same as the 80-core part). oMLX v0.7.2; mlx-community MiniMax-M3.1-Flash-oQ3e-mtp with MTP/DSpark, DFlash and expert offload off; 182.1 GB peak. 18.0 tok/s at 4k, 17.3 at 8k."
+MiniMax-M3.1-Flash,428B-A23B,oQ3e,M5 Ultra,256,MLX,34.5,,2026-10-24,community,https://omlx.ai/benchmarks/performance/gz4a9lgf,1k,"80-core GPU. oMLX v0.7.2 on macOS 27.0.1; the oQ3e-mtp build (as the M3 Ultra row) with MTP, DFlash and expert offload off; 182.1 GB peak. 24.5 tok/s at 8k, 21.3 at 32k."
+Recursive Flint,39.8B-A2.5B,Q4_1,M4 Pro,48,llama.cpp,79.57,,2026-10-22,community,https://github.com/nace-ai/kapitsa/blob/main/bench/results/2026-10-22-flint-m4pro/README.md,"512-token coding answers, median of 5 at T 1.0","MacBook Pro, 20-core GPU. llama.cpp b11804 (its first build with Flint), Recursive's Q4_1 GGUF (RecursiveSI/flint-int4-gguf), -b/-ub 2048; greedy 79.93. Light foreign-GPU contention flagged (3.85% mean). Run by the Kapitsa engine's developers with their own harness."
+Recursive Flint,39.8B-A2.5B,Q4_1,M5 Pro,48,llama.cpp,92.36,,2026-10-22,community,https://github.com/nace-ai/kapitsa/blob/main/bench/results/2026-10-22-flint-m5pro/README.md,"512-token coding answers, median of 5 at T 1.0","MacBook Pro, 20-core GPU. llama.cpp b11804, Recursive's Q4_1 GGUF; greedy 92.84; no GPU contention; a single harness run. Run by the Kapitsa engine's developers with their own harness."
+Recursive Flint,39.8B-A2.5B,Q4_1,M3 Pro,36,llama.cpp,50.87,,2026-10-22,community,https://github.com/nace-ai/kapitsa/blob/main/bench/results/2026-10-22-flint-m3pro-ac/README.md,"512-token coding answers at T 1.0, -c 32768","18-core GPU, macOS 14. llama.cpp b11804, Recursive's Q4_1 GGUF; mean of two clean passes, each a median of 5 (greedy 51.00); run at a 32K context (out of memory at 140K). Run by the Kapitsa engine's developers with their own harness."
+Recursive Flint,39.8B-A2.5B,oQ4e,M5 Pro,48,MLX,80.7,,2026-10-22,community,https://omlx.ai/benchmarks/performance/xiwukc1a,1k,"20-core GPU. oMLX v0.7.2, MTP/DFlash off; Flint-oQ4e; 22.2 GB peak."
+Recursive Flint,39.8B-A2.5B,4-bit,M5 Pro,64,Ollama,115,,2026-10-21,community,https://x.com/pratikg/status/2113047879548105131,"18-token prompt, 1,075 generated","Mac mini. Ollama --verbose eval rate 115.33; the post says a 4-bit build but not which tag. Its 87 tok/s after a 20K-token prompt is a long-context figure, not this row."
+Recursive Flint,39.8B-A2.5B,INT4,M4 Pro,48,rec,131.2,,2026-10-21,sourced,https://github.com/recursive-oss/rec,"1K prompt, 1,024 generated, 5 runs","Recursive's own Metal engine, rec 0.1.0 (a vendor runtime, so it does not anchor), on RecursiveSI/flint-int4 (MLX group-64 INT4, INT8 embeddings); prefill excluded. Read from the throughput chart's description in the rec README; the source of Recursive's '>125 tok/s on an M4 Pro' claim. 4.54 bpw = the 22.6 GB RecursiveSI/flint-int4 checkpoint over 39.8B parameters."
+Recursive Flint,39.8B-A2.5B,4-bit,M4 Pro,48,llama.cpp,88,,2026-10-21,sourced,https://github.com/recursive-oss/rec,"1K prompt, 1,024 generated, 5 runs","Recursive's llama.cpp baseline on the same chart; build not stated and the chart was committed before PR #30928 merged, so it does not anchor; GGUF type not stated."
+Recursive Flint,39.8B-A2.5B,INT4,M5 Max,36,MLX,131,,2026-10-22,community,https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.16.8,"~1K context, greedy, 256 generated","The 36 GB M5 Max is the binned 32-core-GPU, 460 GB/s part, so this run never anchors or sets the reference. Rapid-MLX 0.16.8 on MLX 0.32.4, RecursiveSI/flint-int4; speculative decoding and MTP off per the release notes; ~24 GB peak. 118.5 tok/s at ~8K. Published by the runtime's developers. 4.54 bpw = the 22.6 GB RecursiveSI/flint-int4 checkpoint over 39.8B parameters."
+Recursive Flint,39.8B-A2.5B,oQ6e,M5 Max,128,MLX,110.2,,2026-10-22,community,https://omlx.ai/benchmarks/performance/43ti32pd,1k,"40-core GPU. oMLX v0.7.2+omni (an unexplained build), MTP/DFlash off; Flint-oQ6e, a format the index cannot cost, so it does not anchor; 30.8 GB peak. 102.5 tok/s at 4k."
+Recursive Flint,39.8B-A2.5B,INT4,M3 Ultra,,MLX,104.5,,2026-10-21,community,https://x.com/aleckloss/status/2113018230671585750,"19-token prompt, 512 generated, median of 5","Mac Studio, RAM not stated. mlx-lm from the then-unmerged PR #1998 branch (merged 24 Oct, not yet released) with a load-time workaround for the uint8-stored weights, so it does not anchor; RecursiveSI/flint-int4. The same thread's 107 tok/s on Ollama's MLX engine had reasoning on and an unstated quant. 4.54 bpw = the 22.6 GB RecursiveSI/flint-int4 checkpoint over 39.8B parameters."
+Recursive Flint,39.8B-A2.5B,BF16,M3 Ultra,512,MLX,51.3,,2026-10-21,community,https://x.com/Prince_Canuma/status/2112957860875493508,"1K, single request","mlx-vlm 0.7.10, BF16, no MTP or draft model; posted by mlx-vlm's author. 32.7 tok/s at 128K is a long-context figure, not this row."
+Recursive Flint,39.8B-A2.5B,4-bit,M3 Ultra,,MLX,90.6,,2026-10-21,community,https://x.com/Prince_Canuma/status/2112957851110957296,"1K tokens per request, batch 1","mlx-vlm 0.7.10, 4-bit, no MTP or draft model (confirmed in reply 2113009118990496083); peak memory under 25 GB. RAM not restated on this chart (the BF16 chart in the same thread says 512 GB). The batch-8 aggregate is not plain decode."
+Nemotron 3.5 Bolt E4B,4B,4-bit,M3 Max,36,MLX,72.98,,2026-10-23,community,https://huggingface.co/DJLougen/NVIDIA-Nemotron-3.5-Bolt-E4B-MLX,"short chat prompt, 256 generated, greedy","The 36 GB M3 Max is the binned 30-core-GPU, 300 GB/s part. mlx-vlm 0.7.10 on MLX 0.32.4, 4-bit affine g64; decode-only gen_tps_reported from results/kl_results_release.json (the card table's 68.1 is wall-clock with prefill). The quantizer reports only 71.7% top-1 agreement with BF16 for this build."
+Nemotron 3.5 Bolt E4B,4B,6-bit,M3 Max,36,MLX,55.22,,2026-10-23,community,https://huggingface.co/DJLougen/NVIDIA-Nemotron-3.5-Bolt-E4B-MLX,"short chat prompt, 256 generated, greedy","The 36 GB M3 Max is the binned 30-core-GPU, 300 GB/s part. mlx-vlm 0.7.10 on MLX 0.32.4, 6-bit affine g64; decode-only gen_tps_reported (wall-clock 46.8). 92.5% top-1 agreement with BF16, the quality-safe build."
+Nemotron 3.5 Bolt E4B,4B,8-bit,M3 Max,36,MLX,45.26,,2026-10-23,community,https://huggingface.co/DJLougen/NVIDIA-Nemotron-3.5-Bolt-E4B-MLX,"short chat prompt, 256 generated, greedy","The 36 GB M3 Max is the binned 30-core-GPU, 300 GB/s part. mlx-vlm 0.7.10 on MLX 0.32.4, 8-bit affine g64; decode-only gen_tps_reported (wall-clock 36.6)."
+Nemotron 3.5 Bolt E4B,4B,BF16,M3 Max,36,MLX,26.53,,2026-10-23,community,https://huggingface.co/DJLougen/NVIDIA-Nemotron-3.5-Bolt-E4B-MLX,"short chat prompt, 256 generated, greedy","The 36 GB M3 Max is the binned 30-core-GPU, 300 GB/s part. mlx-vlm 0.7.10 on MLX 0.32.4; decode-only gen_tps_reported (wall-clock 11.4)."
+Nemotron 3.5 Bolt E4B,4B,OptiQ mixed 4/8-bit,M4,24,MLX,26.6,,2026-10-24,community,https://huggingface.co/mlx-community/NVIDIA-Nemotron-3.5-Bolt-E4B-OptiQ-4bit,"code prompt, batch 1, greedy, thinking off, best of 3","mlx-optiq (optiq serve). OptiQ mixed precision: 124 of 345 language-tower layers at 4-bit and 221 at 8-bit (6.53 GB language tower), vision tower BF16; 26.3–26.6 tok/s across four tasks. The card's drafter and n-gram columns (45–94 tok/s) are speculative decoding, not this row."
+Nemotron 3.5 Bolt E4B,4B,oQ8e,M5 Pro,64,MLX,46.4,,2026-10-23,community,https://omlx.ai/benchmarks/performance/a2v0lmjd,1k,"20-core GPU. oMLX v0.7.2, MTP/DFlash off; NVIDIA-Nemotron-3.5-Bolt-E4B-oQ8e; 8.1 GB peak. 42.3 tok/s at 4k (uhc5jo38)."
+Nemotron 3.5 Bolt E4B,4B,Q4_K_M,M4,16,llama.cpp,26.6,,2026-10-24,community,https://note.com/hacklog_stealth/n/n165fd037d7a6,"short Japanese prompt, ~400 characters generated, -c 8192","Mac mini M4. Homebrew llama.cpp build 10964, NVIDIA's official 6.18 GB Q4_K_M GGUF, no draft model; a single run, and the article does not name the tool or timing field behind the figure, so it does not anchor."
+Nemotron 3.5 Bolt 74B-A9B,74B-A9B,4-bit,M5 Max,128,MLX,57.9,,2026-10-20,community,https://omlx.ai/benchmarks/performance/ccadpy82,4k,"40-core GPU. oMLX v0.7.1rc1, MTP/DFlash/SpecPrefill off; NVIDIA-Nemotron-3.5-Bolt-74B-A9B-4bit; 47.4 GB peak. 56.3 tok/s at 16k."
+Nemotron 3.5 Bolt 74B-A9B,74B-A9B,IQ2_XXS,M5 Max,64,MLX,73,,2026-10-23,community,https://omlx.ai/benchmarks/performance/6hru2tuw,1k,"40-core GPU. oMLX v0.7.2 with the remote-code loader from NVIDIA's MLX bundle (txgsync ...-24GB-LiLiCorr-MLX, weights byte-identical to NVIDIA's 24 GB checkpoint: IQ2_XXS experts at ~2.06 bpw, NVFP4 Mamba, Q8_0 embedding/output), so it does not anchor; MTP/DFlash off; 23.9 GB peak. 66.2 tok/s at 64k."
+Nemotron 3.5 Bolt 74B-A9B,74B-A9B,IQ2_XXS,M3 Ultra,512,MLX,74.5,,2026-10-18,community,https://omlx.ai/benchmarks/performance/34w81zue,1k,"80-core GPU. oMLX v0.7.1.dev1 with the bundle's custom loader, NVIDIA's 24 GB checkpoint (LiLiCorr bundle, DFlash off), so it does not anchor; 23.8 GB peak. 72.8 tok/s at 4k."
+Nemotron 3.5 Bolt 74B-A9B,74B-A9B,IQ2_XXS,M3 Max,128,MLX,50.8,,2026-10-22,community,https://omlx.ai/benchmarks/performance/5dykqndv,1k,"40-core GPU. oMLX v0.7.2 with the bundle's custom loader, NVIDIA's 24 GB checkpoint, so it does not anchor; 23.9 GB peak. 47.5 tok/s at 4k."
+Nemotron 3.5 Bolt 74B-A9B,74B-A9B,IQ2_XXS,M5 Pro,48,MLX,39,,2026-10-19,community,https://github.com/nace-ai/kapitsa/blob/main/docs/benchmarks.md,"512-token coding answers, median of 5 at T 0.6","MacBook Pro, 20-core GPU. oMLX 0.7.1rc1 (no drafter) loading NVIDIA's 24 GB checkpoint through the bundle's model file, so it does not anchor; greedy 39.8; 30.3 GB peak. Run by the Kapitsa engine's developers with their own harness."
+Nemotron 3.5 Bolt 74B-A9B,74B-A9B,IQ2_XXS,M4 Pro,48,MLX,34.6,,2026-10-19,community,https://github.com/nace-ai/kapitsa/blob/main/docs/benchmarks.md,"512-token coding answers, median of 5 at T 0.6","MacBook Pro, 20-core GPU. oMLX 0.7.1rc1 (no drafter) loading NVIDIA's 24 GB checkpoint through the bundle's model file, so it does not anchor; the 19 Oct re-run with no run flagged (greedy 34.1; the 18 Oct run read 33.9 under desktop GPU load); 30.4 GB peak. Run by the Kapitsa engine's developers with their own harness."
+Nemotron 3.5 Bolt 74B-A9B,74B-A9B,4-bit,M3 Max,128,MLX,44,,2026-10-16,community,https://blog.bytebunkerlabs.ai/posts/nemotron-bolt-74b-on-a-mac/,generation length not stated,"mlx_lm with a ported nemotron_h_puzzle loader (stock mlx-lm cannot build Bolt), so it does not anchor; rapid-mlx MLX-4bit conversion with the MTP head dropped; 43.6 GB resident. The post is undated (about 16 Oct, updated 17 Oct)."
+Nemotron 3.5 Bolt 74B-A9B,74B-A9B,IQ2_XXS + Q8_0,M5 Pro,64,llama.cpp,24.6,,2026-10-16,community,https://huggingface.co/UraionLabs/Nemotron-3.5-Bolt-74B-A9B-24GB-Metal-GGUF,"random-text prompts, greedy, -c 262144","20-core GPU. llama-server 0.7.0-dev 620d222 (LM Studio Metal backend 2.59.0), built before PR #30699; UraionLabs' rewrite of NVIDIA's 24 GB GGUF with the 80 NVFP4 ssm tensors converted to Q8_0 (24.2 GB), so it does not anchor. NVIDIA's own file ran 12.8 tok/s on the same Mac (NVFP4 CPU fallback)."
+Nemotron 3.5 Lightning,30B-A3B,Q4_0,M5 Max,128,llama.cpp,116.8,,2026-10-18,community,https://github.com/nace-ai/kapitsa/blob/main/docs/benchmarks-m5-max.md,"512-token coding answers, median of 5 at T 0.6, thinking off","40-core GPU. llama.cpp 0.7.0 (b11669), ggml-org Q4_0, no speculation; greedy 113.2. WebKit GPU contention flagged in the prefill phases only. Run by the Kapitsa engine's developers with their own harness."
+Nemotron 3.5 Lightning,30B-A3B,4-bit,M5 Max,128,MLX,139.3,,2026-10-18,community,https://github.com/nace-ai/kapitsa/blob/main/docs/benchmarks-m5-max.md,"512-token coding answers, median of 5 at T 0.6, thinking off","40-core GPU. mlx-lm 0.32.2, mlx-community 4-bit (no MTP path); greedy 145.6. Run by the Kapitsa engine's developers with their own harness."
+Nemotron 3.5 Lightning,30B-A3B,4-bit,M5 Max,128,MLX,164.7,,2026-10-18,community,https://github.com/nace-ai/kapitsa/blob/main/docs/benchmarks-m5-max.md,"512-token coding answers, median of 5 at T 0.6, thinking off","40-core GPU. oMLX 0.7.1rc1, mlx-community 4-bit, no MTP or speculation; greedy 166.6. Run by the Kapitsa engine's developers with their own harness."
+Nemotron 3.5 Lightning,30B-A3B,4-bit,M5 Pro,48,MLX,93.73,,2026-10-19,community,https://github.com/nace-ai/kapitsa/blob/main/bench/results/2026-10-19-m5pro-48gb/README.md,"512-token coding answers, median of 5 at T 0.6","MacBook Pro, 20-core GPU. mlx-lm 0.32.2 (MLX 0.32.4), mlx-community 4-bit, no MTP path; greedy 96.76; no contention. Run by the Kapitsa engine's developers with their own harness."
+Nemotron 3.5 Lightning,30B-A3B,Q4_K_M,M5 Pro,48,LM Studio,72.3,,2026-10-19,community,https://github.com/nace-ai/kapitsa/blob/main/docs/benchmarks.md,"512-token coding answers, median of 5 at T 0.6","MacBook Pro, 20-core GPU. LM Studio llama.cpp runtime 2.60.0 (b11698), lmstudio-community Q4_K_M (no MTP head); greedy 72.2. Run by the Kapitsa engine's developers with their own harness."
+Nemotron 3.5 Super VL 120B-A12B,120B-A12B,4-bit,M5 Max,128,MLX,51.8,,2026-10-18,community,https://github.com/nace-ai/kapitsa/blob/main/docs/benchmarks-m5-max.md,"512-token coding answers, median of 5 at T 0.6","40-core GPU. oMLX 0.7.1rc1, no speculation; rapid-mlx text-only MLX 4-bit (69.5 GB); greedy 50.4; 74.8 GB peak. The session's only engine run without a contention flag. Run by the Kapitsa engine's developers with their own harness."
+Nemotron 3.5 Super VL 120B-A12B,120B-A12B,4-bit,M5 Max,128,MLX,45.5,,2026-10-18,community,https://github.com/nace-ai/kapitsa/blob/main/docs/benchmarks-m5-max.md,"512-token coding answers, median of 5 at T 0.6",40-core GPU. mlx-lm 0.32.2 on the same rapid-mlx text-only 4-bit build; greedy 45.4; GPU contention flagged in that session. Run by the Kapitsa engine's developers with their own harness.
+Nemotron 3.5 Super VL 120B-A12B,120B-A12B,Q4_0,M5 Max,128,llama.cpp,35.9,,2026-10-18,community,https://github.com/nace-ai/kapitsa/blob/main/docs/benchmarks-m5-max.md,"512-token coding answers, median of 5 at T 0.6","40-core GPU. llama.cpp 0.7.0, ggml-org Q4_0, no speculation; greedy 35.4. Run by the Kapitsa engine's developers with their own harness."
+Nemotron 3.5 Super VL 120B-A12B,120B-A12B,4-bit,M5 Ultra,96,MLX,74.3,,2026-10-19,community,https://omlx.ai/benchmarks/performance/va1oqfuo,1k,"64-core GPU (1.2 TB/s, the same as the 80-core part). oMLX v0.7.1rc1, MTP/DFlash off; NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-MLX-4bit; 70.0 GB peak."
+Nemotron 3.5 Super VL 120B-A12B,120B-A12B,4-bit,M4 Max,128,MLX,50.8,,2026-10-18,community,https://omlx.ai/benchmarks/performance/573eoqvm,1k,"40-core GPU. oMLX v0.7.0, MTP/DFlash off; Duckets MLX-4bit (group 64, 4.57 bpw); 69.8 GB peak. 50.2 tok/s at 4k."
+Qwen3.8-Flash-Next,125B-A6B,Q4_K_M,M5 Max,128,Ollama,50.1,,2026-10-18,community,https://github.com/nace-ai/kapitsa/blob/main/docs/benchmarks-m5-max.md,"512-token coding answers, median of 5 at T 0.6","40-core GPU. Ollama 0.40.6 GGUF runner, Q4_K_M tag, MTP off; greedy 48.3. Its n-gram table is memory-mapped from SSD (an auxiliary table, not the weights). Run by the Kapitsa engine's developers with their own harness."
+Qwen3.8-Flash-Next,125B-A6B,IQ4_NL,M5 Max,128,llama.cpp,46.4,,2026-10-18,community,https://github.com/nace-ai/kapitsa/blob/main/docs/benchmarks-m5-max.md,"512-token coding answers, median of 5 at T 0.6","40-core GPU. llama.cpp 0.7.0 (b11669), ggml-org IQ4_NL, MTP off; greedy 45.1. Run by the Kapitsa engine's developers with their own harness."
+Qwen3.8-Flash-Next,125B-A6B,oQ4e,M5 Max,128,MLX,69.7,,2026-10-18,community,https://github.com/nace-ai/kapitsa/blob/main/docs/benchmarks-m5-max.md,"512-token coding answers, median of 5 at T 0.6","40-core GPU. oMLX 0.7.1rc1, MTP off; decode-phase GPU contention of 14–16% was flagged, so it does not anchor; greedy 66.8. Run by the Kapitsa engine's developers with their own harness."
+Qwen3.8-Flash-Next,125B-A6B,oQ4e,M5 Max,128,MLX,58.7,,2026-10-24,community,https://omlx.ai/benchmarks/performance/yb4prpsu,4k,"40-core GPU. oMLX v0.7.2, MTP/DFlash off; Qwen3.8-Flash-Next-oQ4e-mtp; 69.7 GB peak. 66.4 tok/s at 16k (non-monotonic)."
+Qwen 3.6-35B-A3B,35B-A3B,4-bit,M5 Pro,48,MLX,77.8,,2026-10-19,community,https://github.com/nace-ai/kapitsa/blob/main/bench/results/2026-10-19-m5pro-48gb/README.md,"~85-token prompt, 512-token coding answers, median of 5 at T 0.6","MacBook Pro, 20-core GPU. mlx-lm 0.32.2 (MLX 0.32.4), no MTP path; greedy 83.75. Run by the Kapitsa engine's developers with their own harness."
+Qwen 3.6-35B-A3B,35B-A3B,Q4_K_M,M5 Pro,48,llama.cpp,81.96,,2026-10-19,community,https://github.com/nace-ai/kapitsa/blob/main/bench/results/2026-10-19-m5pro-48gb/README.md,"~85-token prompt, 512-token coding answers, median of 5 at T 0.6","MacBook Pro, 20-core GPU. llama.cpp b11669 llama-server on Ollama's qwen3.6:35b-a3b-mtp-q4_K_M GGUF with drafting off (MTP n-max 2 reached 107.3, a different workload); greedy 82.19. Run by the Kapitsa engine's developers with their own harness."
+Qwen 3.6-35B-A3B,35B-A3B,4-bit,M5 Pro,48,MLX,94.3,,2026-10-19,community,https://github.com/nace-ai/kapitsa/blob/main/bench/results/2026-10-19-m5pro-48gb/README.md,"~85-token prompt, 512-token coding answers, median of 5 at T 0.6","MacBook Pro, 20-core GPU. mlx-vlm server 0.7.8, no speculation; greedy 97.43. Only the session's cached 16K follow-up phase was invalid; the decode phase is valid. Run by the Kapitsa engine's developers with their own harness."
+Qwen 3.6-35B-A3B,35B-A3B,4-bit,M5 Pro,48,LM Studio,95.62,,2026-10-19,community,https://github.com/nace-ai/kapitsa/blob/main/bench/results/2026-10-19-m5pro-48gb/README.md,"~85-token prompt, 512-token coding answers, median of 5 at T 0.6","MacBook Pro, 20-core GPU. LM Studio MLX runtime 1.13.1, lmstudio-community MLX 4-bit; greedy 97.85; flagged for 511 of 512 completion tokens. Run by the Kapitsa engine's developers with their own harness."
+Qwen 3.6-35B-A3B,35B-A3B,Q4_K_M,M5 Pro,48,Ollama,79.48,,2026-10-19,community,https://github.com/nace-ai/kapitsa/blob/main/bench/results/2026-10-19-m5pro-48gb/README.md,"~85-token prompt, 512-token coding answers, median of 5 at T 0.6","MacBook Pro, 20-core GPU. Ollama 0.40.6 on its qwen3.6:35b-a3b-mtp-q4_K_M GGUF with drafting off (draft_num_predict 0; the shipped MTP depth 2 reached 102.4, a different workload); greedy 81.24. Run by the Kapitsa engine's developers with their own harness."
+Qwen 3.6-35B-A3B,35B-A3B,4-bit,M5 Pro,48,MLX,75.66,,2026-10-19,community,https://github.com/nace-ai/kapitsa/blob/main/bench/results/2026-10-19-m5pro-48gb/README.md,"~85-token prompt, 512-token coding answers, median of 5 at T 0.6","MacBook Pro, 20-core GPU. Rapid-MLX 0.16.3 (mlx 0.32.4, mlx-lm 0.31.3), MLX 4-bit, no speculation (its catalog turns it off for this MoE); greedy 77.64. Run last in the session (15:27). Run by the Kapitsa engine's developers with their own harness."
+Qwen 3.6-35B-A3B,35B-A3B,4-bit,M5 Pro,48,llama.cpp,68.7,,2026-10-15,sourced,https://www.frandroid.com/test/3283093_test-nvidia-rtx-spark,single stream; prompt length not stated,"Frandroid's RTX Spark review: MacBook Pro 14 M5 Pro (18-core CPU, 48 GB), llama.cpp b11582 on Metal (llama-bench), a 22 GB 4-bit GGUF whose type the review does not name."
+Qwen3.8-27B,27.8B,4-bit,M5 Pro,48,llama.cpp,16.5,,2026-10-15,sourced,https://www.frandroid.com/test/3283093_test-nvidia-rtx-spark,single stream; prompt length not stated,"Frandroid's RTX Spark review: MacBook Pro 14 M5 Pro (18-core CPU, 48 GB), llama.cpp b11582 on Metal, a 16.5 GB 4-bit GGUF whose type the review does not name."
+Qwen3.8-27B,27.8B,4-bit,M5 Pro,48,MLX,16.33,,2026-10-19,community,https://github.com/nace-ai/kapitsa/blob/main/bench/results/2026-10-19-m5pro-48gb/README.md,"512-token coding answers, median of 5 at T 0.6","MacBook Pro, 20-core GPU. mlx-lm 0.32.2 (MLX 0.32.4), no MTP path; greedy 16.92. Run by the Kapitsa engine's developers with their own harness."
+Qwen3.8-27B,27.8B,4-bit,M5 Pro,48,LM Studio,16.81,,2026-10-19,community,https://github.com/nace-ai/kapitsa/blob/main/bench/results/2026-10-19-m5pro-48gb/README.md,"512-token coding answers, median of 5 at T 0.6","MacBook Pro, 20-core GPU. LM Studio MLX runtime 1.13.1, lmstudio-community MLX 4-bit; greedy 16.88; flagged for 511 of 512 completion tokens. Run by the Kapitsa engine's developers with their own harness."
+Qwen 3 8B,8B,4-bit,M5 Pro,48,llama.cpp,54.4,,2026-10-15,sourced,https://www.frandroid.com/test/3283093_test-nvidia-rtx-spark,single stream; prompt length not stated,"Frandroid's RTX Spark review: MacBook Pro 14 M5 Pro (18-core CPU, 48 GB), llama.cpp b11582 on Metal, a 5 GB 4-bit GGUF whose type the review does not name."
+DeepSeek V4.1 Flash,552B-A16B,oQ4e,M3 Ultra,512,MLX,38.7,,2026-10-21,community,https://github.com/jundot/omlx/releases/tag/v0.7.2,16K prompt,"oMLX 0.7.2 release notes (fused decode kernels, PR #4722): the 1017 -mtp checkpoint at oQ4e with MTP off, 32.8 -> 38.7 tok/s, measured at a 16K-token prompt. A long-prompt figure is a different workload from the index's plain-decode rows, so it is shown but does not anchor; the model's estimates still follow the 11 Sep 4K run (20.23)."
+Ling-3.1-flash,560B-A25B,MLX mixed 4/8-bit,M3 Ultra,512,MLX,19.5,,2026-10-18,community,https://omlx.ai/benchmarks/performance/8n0mlx3k,4k,"80-core GPU. oMLX v0.7.1rc1, MTP/DFlash/expert offload off; Ling-3.1-flash-MLX-mixed-4_8bit, a conversion with no public repo (the page labels it 8-bit; bpw not published), running its KDA layers on a release candidate, so it does not anchor; 312.3 GB peak. The first Mac measurement of this model."
+MiniCPM-V 4.7 35B-A3B,35B-A3B,MXFP4,M4 Max,64,MLX,86.9,,2026-10-23,community,https://omlx.ai/benchmarks/performance/k2g5mfnw,1k,"40-core GPU. oMLX v0.7.1rc1, MTP/DFlash off; MiniCPM-V-4.7-35B-A3B-mxfp4; 22.1 GB peak."
+MiniCPM-V 4.7 35B-A3B,35B-A3B,oQ4e,M4 Pro,48,MLX,81.8,,2026-10-22,community,https://omlx.ai/benchmarks/performance/k6tli2pp,1k,"20-core GPU. oMLX v0.7.2, MTP/DFlash off; MiniCPM-V-4.7-35B-A3B-oQ4e; 20.9 GB peak. 80.4 tok/s at 4k."
+MiniCPM-V 4.7 35B-A3B,35B-A3B,oQ4e,M4 Pro,48,MLX,75.2,,2026-10-22,community,https://omlx.ai/benchmarks/performance/6mgglaii,1k,"20-core GPU; the same machine as k6tli2pp, a second session. oMLX v0.7.2, MTP/DFlash off; MiniCPM-V-4.7-35B-A3B-oQ4e; 21.0 GB peak. 75.0 tok/s at 4k."
+MiniCPM-V 4.7 35B-A3B,35B-A3B,MXFP4,M5 Pro,64,MLX,56.6,,2026-10-22,community,https://omlx.ai/benchmarks/performance/i1w8hm2q,1k,"20-core GPU. oMLX v0.7.2, MTP/DFlash off; MiniCPM-V-4.7-35B-A3B-mxfp4; 22.1 GB peak. 50.3 tok/s at 32k."
+MiniCPM-V 4.7 35B-A3B,35B-A3B,8-bit,M5 Max,128,MLX,84.7,,2026-10-21,community,https://omlx.ai/benchmarks/performance/04kas7wk,1k,"40-core GPU. oMLX v0.7.1, MTP/DFlash off; MiniCPM-V-4.7-35B-A3B-8bit; 38.2 GB peak. Above 5 bits, so shown but never the reference."
+LFM2.5-24B-A2B,24B-A2.45B,4-bit,M5 Pro,48,MLX,122,,2026-10-19,community,https://omlx.ai/benchmarks/performance/hjhnj22e,4k,"20-core GPU. oMLX v0.7.0, MTP/DFlash off; LFM2.5-24B-A2B-MLX-4bit; 13.7 GB peak. 104.3 tok/s at 16k."
+LFM2.5-24B-A2B,24B-A2.45B,oQ4e,M5 Pro,48,MLX,113.5,,2026-10-19,community,https://omlx.ai/benchmarks/performance/pyytas8e,1k,"16-core GPU (the same 307 GB/s as the 20-core part). oMLX v0.6.4, MTP/DFlash off; LFM2.5-24B-A2B-oQ4e; 13.6 GB peak. 108.1 tok/s at 4k."
+LFM2.5-24B-A2B,24B-A2.45B,8-bit,M5 Max,128,MLX,131.5,,2026-10-20,community,https://omlx.ai/benchmarks/performance/ndgc5rks,1k,"40-core GPU. oMLX v0.7.1, MTP/DFlash off; LFM2.5-24B-A2B-MLX-8bit; 24.3 GB peak. 130.1 tok/s at 4k. Above 5 bits, so shown but never the reference."
+LFM2.5-24B-A2B,24B-A2.45B,4-bit,M3 Ultra,96,MLX,115.6,,2026-10-21,community,https://omlx.ai/benchmarks/performance/0evtkccb,4k,"60-core GPU (819 GB/s, the same as the 80-core part). oMLX v0.7.1, MTP/DFlash off; LFM2.5-24B-A2B-MLX-4bit; 13.6 GB peak."
+LFM2.5-24B-A2B,24B-A2.45B,4-bit,M4,32,MLX,59.3,,2026-10-22,community,https://omlx.ai/benchmarks/performance/gv1i4pc3,1k,"10-core GPU. oMLX v0.7.2, MTP/DFlash off; LFM2.5-24B-A2B-MLX-4bit; 13.1 GB peak. 58.2 tok/s at 4k."
+LFM2.5-2.6B,2.6B,FP16,M4 Max,,llama.cpp,61,,2026-08-20,sourced,https://www.liquid.ai/blog/lfm2.5-dspark,"batch 1, temperature 0, up to 256 generated","Liquid AI's DSpark post: target-only decode on an M4 Max MacBook Pro, mean of five prompt sets (60–62), llama.cpp with Metal kernels from then-unmerged PRs #27383 / #27441, so it does not anchor. The 139 tok/s with the DSpark drafter is speculative decoding, not this row."
+Ling-3.0 Flash,124B-A5B,oQ4e,M2 Max,96,MLX,44,,2026-10-23,community,https://omlx.ai/benchmarks/performance/9txqaggz,1k,"38-core GPU. oMLX v0.7.2, MTP off (head bundled, not executed); Ling-3.0-flash-oQ4e-fp16-mtp; 68.3 GB peak. 40.9 tok/s at 4k, 32.7 at 32k."
+Muse Glimmer 30B,30B,oQ4e,M4 Max,64,MLX,28.9,,2026-10-21,community,https://omlx.ai/benchmarks/performance/03xxnnwd,1k,"40-core GPU. oMLX v0.7.2, MTP/DFlash off; Muse-Glimmer-30B-oQ4e; 15.9 GB peak. 26.2 tok/s at 32k."
+Mellum2.1-12B-A2.5B-Thinking,12B-A2.5B,6-bit,M5 Pro,64,MLX,112.7,,2026-10-23,community,https://omlx.ai/benchmarks/performance/ko0lczfd,1k,"20-core GPU. oMLX v0.7.2, MTP/DFlash off; Mellum2.1-12B-A2.5B-Thinking-mlx-6bit-g64; 9.8 GB peak. 110.7 tok/s at 4k. Above 5 bits, so shown but never the reference."
+Kolibri-1,78B-A3.5B,8-bit,M5 Max,128,MLX,78.9,,2026-10-17,community,https://omlx.ai/benchmarks/performance/uikbscnq,1k,"40-core GPU. oMLX v0.7.1rc1+omni (an unexplained build; mlx-lm support, PR #1945, is unmerged), so it does not anchor; Kolibri-1-mlx-8bit; 77.7 GB peak. 73.3 tok/s at 4k."
+GPT-oss 120B,117B-A5.1B,MXFP4,M5 Ultra,256,MLX,120,,2026-10-15,community,https://bohemiansilicon.com/blog/mac-studio-m5-ultra-local-llm-benchmark/,"512-token random prompt, 128 generated, empty context, mean of 2","Mac Studio, mlx-lm 0.32 on macOS 27.0.1, mlx-community MXFP4-Q8 build (MXFP4 experts, 8-bit elsewhere). 113 tok/s at 8K and 96 at 32K. Published by Bohemian Silicon, which rents out this Mac."
+GPT-oss 20B,21B-A3.6B,MXFP4,M5 Ultra,256,MLX,184,,2026-10-15,community,https://bohemiansilicon.com/blog/mac-studio-m5-ultra-local-llm-benchmark/,"512-token random prompt, 128 generated, empty context, mean of 2","Mac Studio, mlx-lm 0.32 on macOS 27.0.1, mlx-community MXFP4-Q8 build (MXFP4 experts, 8-bit elsewhere). 172 tok/s at 8K and 145 at 32K. Published by Bohemian Silicon, which rents out this Mac."
+Gemma 4 31B,31B,QAT,M5 Ultra,256,MLX,31,,2026-10-15,community,https://bohemiansilicon.com/blog/mac-studio-m5-ultra-local-llm-benchmark/,"512-token random prompt, 128 generated, empty context, mean of 2","Mac Studio, mlx-lm 0.32 on macOS 27.0.1, mlx-community QAT 4-bit build. 27 tok/s at 8K and 21 at 32K. Published by Bohemian Silicon, which rents out this Mac."
+Qwen 3.5 35B-A3B,35B,4-bit,M5 Ultra,256,MLX,162,,2026-10-15,community,https://bohemiansilicon.com/blog/mac-studio-m5-ultra-local-llm-benchmark/,"512-token random prompt, 128 generated, empty context, mean of 2","Mac Studio, mlx-lm 0.32 on macOS 27.0.1, mlx-community 4-bit MLX conversion. Published by Bohemian Silicon, which rents out this Mac."
+Qwen 3.5 27B,27B,4-bit,M5 Ultra,256,MLX,55,,2026-10-15,community,https://bohemiansilicon.com/blog/mac-studio-m5-ultra-local-llm-benchmark/,"512-token random prompt, 128 generated, empty context, mean of 2","Mac Studio, mlx-lm 0.32 on macOS 27.0.1, mlx-community 4-bit MLX conversion. Published by Bohemian Silicon, which rents out this Mac."
+Qwen 3.5 9B,9B,4-bit,M5 Ultra,256,MLX,167,,2026-10-15,community,https://bohemiansilicon.com/blog/mac-studio-m5-ultra-local-llm-benchmark/,"512-token random prompt, 128 generated, empty context, mean of 2","Mac Studio, mlx-lm 0.32 on macOS 27.0.1, mlx-community 4-bit MLX conversion. Published by Bohemian Silicon, which rents out this Mac."
+Ternary Bonsai 2 27B,27.36B,Ternary,M5 Max,48,MLX,43.4,,2026-10-20,community,https://omlx.ai/benchmarks/performance/ys3mxg2x,4k,"40-core GPU. oMLX v0.7.1rc1, MTP/DFlash off; prism-ml Ternary-Bonsai-2-27B-mlx-2bit (ternary weights in MLX's 2-bit container, 2.25 bpw stored); the pack needs its bundled loader and the page does not show it was used, so it does not anchor; 14.3 GB peak. 40.3 tok/s at 8k."
+Ternary Bonsai 2 27B,27.36B,Ternary,M5 Pro,48,MLX,23.6,,2026-10-19,community,https://omlx.ai/benchmarks/performance/ixgcu3ou,1k,"20-core GPU. oMLX v0.7.1.dev1; prism-ml Ternary-Bonsai-2-27B-mlx-2bit, so it does not anchor; 11.8 GB peak. 21.9 tok/s at 4k. Another session on the same machine (4oet2i02) read 23.5."
+Ternary Bonsai 2 27B,27.36B,Ternary,M6,32,MLX,13.3,,2026-10-23,community,https://omlx.ai/benchmarks/performance/9128ex6l,4k,"12-core GPU. oMLX v0.7.1rc1, MTP/DFlash off; prism-ml Ternary-Bonsai-2-27B-mlx-2bit, so it does not anchor; 13.9 GB peak. 10.5 tok/s at 16k."
+Ternary Bonsai 2 27B,27.36B,Ternary,M5,32,MLX,12,,2026-10-04,community,https://omlx.ai/benchmarks/performance/skgh5ish,1k,"10-core GPU. oMLX v0.7.0 with a TurboQuant 4-bit KV cache; prism-ml Ternary-Bonsai-2-27B-mlx-2bit, so it does not anchor; 11.3 GB peak. 11.0 tok/s at 4k."
+Ternary Bonsai 2 27B,27.36B,PQ2_0,M4 Pro,64,llama.cpp,20.53,,2026-09-22,community,https://github.com/PrismML-Eng/Bonsai-demo/blob/main/community-benchmarks/bonsai2/metal-m4-pro-64gb-macos.md,"tg128, 3 reps","Mac mini. PrismML llama.cpp fork prism-b10709-9a9394a (Metal), llama-bench, PQ2_0 (6.70 GiB), so it does not anchor; Spotlight indexing used 1.5–2 CPU cores throughout, so likely a floor."
+Ternary Bonsai 2 27B,27.36B,PQ2_0,M4 Max,128,llama.cpp,34.5,,2026-09-17,community,https://github.com/Weschera/Bonsai-2-27B-Mac,"~2.2K-token prompts, 320 generated, temperature 0, mean of 3","Mac Studio, 40-core GPU. PrismML llama.cpp fork prism-b10683-d8f26ee (llama-server), PQ2_0 (7.2 GB), thinking off, so it does not anchor."
+Ternary Bonsai 2 9B,9.41B,Ternary,M6,16,MLX,40.2,,2026-10-21,community,https://omlx.ai/benchmarks/performance/fcus8tm6,4k,"The 16 GB Mac mini M6 is the binned 153 GB/s part. oMLX v0.7.0rc1, MTP/DFlash off; prism-ml Ternary-Bonsai-2-9B-mlx-2bit; 6.3 GB peak. 31.7 tok/s at 16k."
+GLM-5.3-Flash,320B-A18B,MLX mixed 4/8-bit,M5 Ultra,256,MLX,61.7,,2026-10-23,community,https://omlx.ai/benchmarks/performance/m35wtcun,1k,"80-core GPU. oMLX v0.7.2, MTP/DFlash/SpecPrefill off; pipenetwork GLM-5.3-Flash-MLX-mixed-4_8bit (181.9 GB: routed experts 4-bit, the rest 8-bit; the card states no bpw, so the index cannot cost it and it does not anchor); 174.2 GB peak. 59.3 tok/s at 4k, 58.1 at 64k."
+Spark-X2.6-4B,4.11B,Q4_K_M,M5 Pro,,llama.cpp,76.14,,2026-10-21,sourced,https://huggingface.co/XHToken/Spark-X2.6-4B/blob/main/images/inference.svg,decode at 4K context depth,SparkLLM's card chart 'Mac M5 Pro · 16-core' (the 16-core-GPU M5 Pro has the same 307 GB/s); llama.cpp build not stated. 62.04 tok/s at 32K.
+Spark-X2.6-4B,4.11B,INT4,M5 Pro,,MLX,86.58,,2026-10-21,sourced,https://huggingface.co/XHToken/Spark-X2.6-4B/blob/main/images/inference.svg,decode at 4K context depth,"SparkLLM's card chart 'Mac M5 Pro · 16-core': MLX INT4 through SparkLLM's own Spark-MLX-LLM loader, so it does not anchor. 72.05 tok/s at 32K."
+Qwen 3.5 4B,4B,Q4_K_M,M5 Pro,,llama.cpp,65.82,,2026-10-21,sourced,https://huggingface.co/XHToken/Spark-X2.6-4B/blob/main/images/inference.svg,decode at 4K context depth,Competitor baseline on SparkLLM's Spark-X2.6-4B card chart 'Mac M5 Pro · 16-core' (the 16-core-GPU M5 Pro has the same 307 GB/s); llama.cpp build not stated.
+Gemma 4 E4B,4B,Q4_K_M,M5 Pro,,llama.cpp,62.15,,2026-10-21,sourced,https://huggingface.co/XHToken/Spark-X2.6-4B/blob/main/images/inference.svg,decode at 4K context depth,Competitor baseline on SparkLLM's Spark-X2.6-4B card chart 'Mac M5 Pro · 16-core' (the 16-core-GPU M5 Pro has the same 307 GB/s); llama.cpp build not stated.
+Recursive Flint,39.8B-A2.5B,Q4_K_M,M5 Max,64,llama.cpp,131,,2026-10,estimated,,,
+Nemotron 3.5 Bolt E4B,4B,Q4_K_M,M5 Max,64,llama.cpp,161,,2026-10,estimated,,,
+MiniMax-M3.1-Flash,428B-A23B,Q4_K_M,M5 Ultra,256,llama.cpp,27,,2026-10,estimated,,,
+Raon-1 mini preview,28.8B-A4.3B,Q4_K_M,M5 Max,64,llama.cpp,99,,2026-10,estimated,,,
+Spark-X2.6-4B,4.11B,Q4_K_M,M5 Max,64,llama.cpp,158,,2026-10,estimated,,,
